@@ -1,0 +1,43 @@
+import Link from "next/link";
+import Image from "next/image";
+import ScheduleCallButton from "@/components/site/ScheduleCallButton";
+
+type SiteHeaderProps = {
+  current?: "home" | "platform" | "intelligence" | "estate-planning" | "fit";
+};
+
+const links = [
+  { href: "/platform", label: "Platform", key: "platform" },
+  { href: "/intelligence", label: "Intelligence", key: "intelligence" },
+  { href: "/estate-planning", label: "Estate Planning", key: "estate-planning" },
+];
+
+export default function SiteHeader({ current }: SiteHeaderProps) {
+  return (
+    <header className="topbar">
+      <div className="container topbar-inner">
+        <Link href="/" className="brand-mark" aria-label="LawOps home">
+          <Image
+            src="/lawops-logo-dark.svg"
+            alt="LawOps"
+            width={178}
+            height={42}
+            priority
+          />
+        </Link>
+        <nav className="topnav" aria-label="Primary">
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={current === link.key ? "nav-active" : undefined}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+        <ScheduleCallButton className="cta-chip" label="Book Fit Conversation" />
+      </div>
+    </header>
+  );
+}

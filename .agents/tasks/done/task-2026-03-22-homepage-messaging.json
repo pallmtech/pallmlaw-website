@@ -1,0 +1,22 @@
+{
+  "id": "task-2026-03-22-homepage-messaging",
+  "type": "homepage-copy-update",
+  "owner": "messaging",
+  "priority": "high",
+  "title": "Homepage messaging brief from current product handoffs",
+  "brief": "Prepare a conservative homepage messaging draft that reflects the latest product handoffs without overclaiming communications capabilities.",
+  "inputs": [
+    ".agents/product/inbox/2026-03-15-communications-update.md",
+    ".agents/product/inbox/2026-03-15-product-clarification-communications-claims.md",
+    ".agents/synopsis/messaging.md"
+  ],
+  "requires": [
+    "website-conversion"
+  ],
+  "status": "done",
+  "createdAt": "2026-03-22T18:12:29.583Z",
+  "processedAt": "2026-03-22T18:12:35.951Z",
+  "output": {
+    "artifact": ".agents/drafts/generated/task-2026-03-22-homepage-messaging-messaging.md"
+  }
+}

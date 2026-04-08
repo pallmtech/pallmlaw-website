@@ -1,0 +1,19 @@
+{
+  "id": "product-inbox-2026-03-15-product-clarification-communications-claims-messaging--marketing-review",
+  "type": "review",
+  "owner": "marketing-director",
+  "priority": "high",
+  "title": "Review product-inbox-2026-03-15-product-clarification-communications-claims-messaging",
+  "brief": "Review the attached specialist draft before any repo edits are made.",
+  "inputs": [
+    ".agents/drafts/generated/product-inbox-2026-03-15-product-clarification-communications-claims-messaging-messaging.md",
+    ".agents/product/inbox/2026-03-15-product-clarification-communications-claims.md"
+  ],
+  "status": "done",
+  "createdAt": "2026-03-22T18:20:36.786Z",
+  "sourceTask": "product-inbox-2026-03-15-product-clarification-communications-claims-messaging",
+  "processedAt": "2026-03-22T18:20:36.836Z",
+  "output": {
+    "artifact": ".agents/drafts/generated/product-inbox-2026-03-15-product-clarification-communications-claims-messaging-marketing-review-marketing-director.md"
+  }
+}

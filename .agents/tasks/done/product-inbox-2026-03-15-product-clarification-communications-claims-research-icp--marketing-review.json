@@ -1,0 +1,19 @@
+{
+  "id": "product-inbox-2026-03-15-product-clarification-communications-claims-research-icp--marketing-review",
+  "type": "review",
+  "owner": "marketing-director",
+  "priority": "high",
+  "title": "Review product-inbox-2026-03-15-product-clarification-communications-claims-research-icp",
+  "brief": "Review the attached specialist draft before any repo edits are made.",
+  "inputs": [
+    ".agents/drafts/generated/product-inbox-2026-03-15-product-clarification-communications-claims-research-icp-research-icp.md",
+    ".agents/product/inbox/2026-03-15-product-clarification-communications-claims.md"
+  ],
+  "status": "done",
+  "createdAt": "2026-03-22T18:20:36.793Z",
+  "sourceTask": "product-inbox-2026-03-15-product-clarification-communications-claims-research-icp",
+  "processedAt": "2026-03-22T18:20:36.842Z",
+  "output": {
+    "artifact": ".agents/drafts/generated/product-inbox-2026-03-15-product-clarification-communications-claims-research-icp-marketing-review-marketing-director.md"
+  }
+}

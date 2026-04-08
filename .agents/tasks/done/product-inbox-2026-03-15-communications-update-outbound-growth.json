@@ -1,0 +1,22 @@
+{
+  "id": "product-inbox-2026-03-15-communications-update-outbound-growth",
+  "type": "product-inbox-intake",
+  "owner": "outbound-growth",
+  "priority": "high",
+  "title": "Product inbox intake: 2026-03-15-communications-update",
+  "brief": "Review this product handoff, extract only safe public-facing implications, and produce role-specific draft guidance under the LawOps marketing rules. Focus on safe outbound phrasing and sequence implications. Treat internal communication foundations conservatively and do not present them as polished public product capabilities.",
+  "inputs": [
+    ".agents/product/inbox/2026-03-15-communications-update.md"
+  ],
+  "requires": [],
+  "status": "done",
+  "createdAt": "2026-03-22T18:20:36.749Z",
+  "source": {
+    "kind": "product-inbox",
+    "file": ".agents/product/inbox/2026-03-15-communications-update.md"
+  },
+  "processedAt": "2026-03-22T18:20:36.771Z",
+  "output": {
+    "artifact": ".agents/drafts/generated/product-inbox-2026-03-15-communications-update-outbound-growth-outbound-growth.md"
+  }
+}

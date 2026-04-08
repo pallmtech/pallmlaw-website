@@ -1,0 +1,27 @@
+{
+  "name": "lawops-landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "agents:run": "node scripts/agent-runner.mjs run",
+    "agents:watch": "node scripts/agent-runner.mjs watch",
+    "agents:start": "node scripts/agent-runner.mjs start",
+    "agents:stop": "node scripts/agent-runner.mjs stop",
+    "agents:seed": "node scripts/seed-agent-task.mjs",
+    "agents:status": "node scripts/agent-runner.mjs status"
+  },
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.2.1",
+    "@types/react": "19.2.13",
+    "typescript": "5.9.3"
+  }
+}
