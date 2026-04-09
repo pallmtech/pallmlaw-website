@@ -3,13 +3,14 @@ import Image from "next/image";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 type SiteHeaderProps = {
-  current?: "home" | "platform" | "intelligence" | "estate-planning" | "fit";
+  current?: "home" | "platform" | "intelligence" | "estate-planning" | "fit" | "insights";
 };
 
 const links = [
   { href: "/platform", label: "Platform", key: "platform" },
   { href: "/intelligence", label: "Intelligence", key: "intelligence" },
   { href: "/estate-planning", label: "Estate Planning", key: "estate-planning" },
+  { href: "/insights", label: "Insights", key: "insights" },
 ];
 
 export default function SiteHeader({ current }: SiteHeaderProps) {

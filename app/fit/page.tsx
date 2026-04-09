@@ -1,7 +1,17 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
+
+export const metadata: Metadata = {
+  title: "Book a LawOps Fit Conversation",
+  description:
+    "Book a fit conversation to see whether LawOps is a strong match for your Estate Planning firm's workflow, visibility, and growth needs.",
+  alternates: {
+    canonical: "/fit",
+  },
+};
 
 const fitSignals = [
   "You run an Estate Planning workflow with multiple handoffs",

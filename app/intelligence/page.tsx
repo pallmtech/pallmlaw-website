@@ -1,6 +1,16 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
+
+export const metadata: Metadata = {
+  title: "Estate Planning Firm Visibility and Reporting",
+  description:
+    "LawOps gives Estate Planning firms visibility into open matters, stale work, critical dates, retained rate, and team performance.",
+  alternates: {
+    canonical: "/intelligence",
+  },
+};
 
 const intelligenceAreas = [
   "Open matters and related open tasks",

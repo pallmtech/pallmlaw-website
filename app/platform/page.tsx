@@ -1,6 +1,16 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
+
+export const metadata: Metadata = {
+  title: "Legal Workflow Software Platform",
+  description:
+    "See how the LawOps platform helps Estate Planning firms manage practice area workflow, stages, critical dates, and task ownership in one system.",
+  alternates: {
+    canonical: "/platform",
+  },
+};
 
 const layers = [
   {

@@ -1,8 +1,18 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
+
+export const metadata: Metadata = {
+  title: "Estate Planning Software for Florida Firms",
+  description:
+    "LawOps helps Florida and U.S. Estate Planning firms track every matter, tighten workflow handoffs, and improve profitability with better visibility.",
+  alternates: {
+    canonical: "/estate-planning",
+  },
+};
 
 const metrics = [
   "Retained-rate visibility across consults and matters",
@@ -47,7 +57,8 @@ export default function EstatePlanningPage() {
               <p>
                 In Estate Planning, LawOps helps leadership see the firm at a
                 glance, tighten handoffs across the workflow, and improve the
-                economics of delivery through better visibility and control.
+                economics of delivery through better visibility and control,
+                especially for firms trying to scale without losing grip on the work.
               </p>
               <div className="inline-cta-row">
                 <ScheduleCallButton
@@ -92,7 +103,8 @@ export default function EstatePlanningPage() {
                 The biggest drag is usually not one dramatic failure. It is the
                 slow leakage across transitions. LawOps is built to show where
                 matters slow down, where handoffs fail, and where margin gets
-                lost in the delivery process.
+                lost in the delivery process for Florida firms and other Estate
+                Planning practices with repeatable delivery work.
               </p>
               <h3>The transitions that matter</h3>
               <ul className="detail-list">

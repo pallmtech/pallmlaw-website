@@ -1,21 +1,28 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { createPortal } from "react-dom";
 
 type ScheduleCallButtonProps = {
   className: string;
   label: string;
 };
 
-const calUrl = "https://cal.com/amccoy/15-min-intro-to-lawops";
+const bookingUrl = "https://book.pallmtech.com/#/4750853000001453070";
+const bookingEmbedUrl =
+  "https://book.pallmtech.com/portal-embed#/4750853000001453070";
 
 export default function ScheduleCallButton({
   className,
   label,
 }: ScheduleCallButtonProps) {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const embedUrl = useMemo(() => bookingEmbedUrl, []);
 
-  const embedUrl = useMemo(() => `${calUrl}?embed=1`, []);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (!open) {
@@ -44,52 +51,59 @@ export default function ScheduleCallButton({
         {label}
       </button>
 
-      {open ? (
-        <div
-          className="schedule-modal-backdrop"
-          role="dialog"
-          aria-modal="true"
-          aria-label="Schedule a LawOps intro call"
-          onClick={() => setOpen(false)}
-        >
-          <div
-            className="schedule-modal"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <div className="schedule-modal-header">
-              <div>
-                <p className="schedule-modal-eyebrow">Book A Conversation</p>
-                <h2>Schedule a 15-minute intro to LawOps</h2>
-              </div>
-              <button
-                type="button"
-                className="schedule-modal-close"
-                aria-label="Close scheduling modal"
-                onClick={() => setOpen(false)}
+      {mounted && open
+        ? createPortal(
+            <div
+              className="schedule-modal-backdrop"
+              role="dialog"
+              aria-modal="true"
+              aria-label="Schedule a LawOps intro meeting"
+              onMouseDown={(event) => {
+                if (event.target === event.currentTarget) {
+                  setOpen(false);
+                }
+              }}
+            >
+              <div
+                className="schedule-modal"
+                onClick={(event) => event.stopPropagation()}
               >
-                Close
-              </button>
-            </div>
+                <div className="schedule-modal-header">
+                  <div>
+                    <p className="schedule-modal-eyebrow">Book A Conversation</p>
+                    <h2>Schedule a 15-minute intro to LawOps</h2>
+                  </div>
+                  <button
+                    type="button"
+                    className="schedule-modal-close"
+                    aria-label="Close scheduling modal"
+                    onClick={() => setOpen(false)}
+                  >
+                    Close
+                  </button>
+                </div>
 
-            <div className="schedule-modal-frame">
-              <iframe
-                src={embedUrl}
-                title="Schedule a LawOps intro call"
-                loading="lazy"
-                referrerPolicy="strict-origin-when-cross-origin"
-              />
-            </div>
+                <div className="schedule-modal-frame">
+                  <iframe
+                    src={embedUrl}
+                    title="Schedule a LawOps intro meeting"
+                    loading="lazy"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                  />
+                </div>
 
-            <p className="schedule-modal-fallback">
-              If the scheduler does not load,{" "}
-              <a href={calUrl} target="_blank" rel="noreferrer">
-                open it in a new tab
-              </a>
-              .
-            </p>
-          </div>
-        </div>
-      ) : null}
+                <p className="schedule-modal-fallback">
+                  If the scheduler does not load,{" "}
+                  <a href={bookingUrl} target="_blank" rel="noreferrer">
+                    open it in a new tab
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>,
+            document.body
+          )
+        : null}
     </>
   );
 }

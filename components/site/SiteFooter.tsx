@@ -28,6 +28,9 @@ export default function SiteFooter() {
               <h3>Product</h3>
               <Link href="/platform">Platform</Link>
               <Link href="/estate-planning">Estate Planning</Link>
+              <Link href="/estate-planning-software">Estate Planning Software</Link>
+              <Link href="/legal-workflow-software">Legal Workflow Software</Link>
+              <Link href="/insights">Insights</Link>
             </div>
 
             <div className="footer-link-group">

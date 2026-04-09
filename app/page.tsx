@@ -1,8 +1,25 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
+import { siteName, siteUrl } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: "Estate Planning Software for Florida and U.S. Law Firms",
+  description:
+    "LawOps helps Estate Planning firms in Florida and across the U.S. see every matter, keep work moving, and improve profitability with better workflow visibility.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Estate Planning Software for Florida and U.S. Law Firms",
+    description:
+      "LawOps helps Estate Planning firms in Florida and across the U.S. see every matter, keep work moving, and improve profitability.",
+    url: siteUrl,
+  },
+};
 
 const pillars = [
   {
@@ -52,12 +69,84 @@ const roadmap = [
   },
 ];
 
+const seoPages = [
+  {
+    href: "/estate-planning-software",
+    title: "Estate Planning Software",
+    body: "A search-focused page for firms looking for software that helps them see every matter and keep work moving.",
+  },
+  {
+    href: "/estate-planning-software-florida",
+    title: "Estate Planning Software Florida",
+    body: "Targeted to Florida Estate Planning firms that want better visibility, handoffs, and growth control.",
+  },
+  {
+    href: "/legal-workflow-software",
+    title: "Legal Workflow Software",
+    body: "Explains LawOps as legal workflow software built around visibility, stages, dates, and task ownership.",
+  },
+  {
+    href: "/matter-tracking-software-estate-planning",
+    title: "Matter Tracking Software",
+    body: "Focused on matter visibility, stalled work, and understanding what needs attention next.",
+  },
+];
+
+const insightArticles = [
+  {
+    href: "/insights/estate-planning-workflow-bottlenecks",
+    title: "Why Estate Planning firms lose time between retained and drafting",
+  },
+  {
+    href: "/insights/why-most-legal-software-does-not-create-visibility",
+    title: "Why most legal software does not create real visibility",
+  },
+  {
+    href: "/insights/how-estate-planning-firms-grow-without-losing-control",
+    title: "How Estate Planning firms grow without losing control",
+  },
+];
+
 export default function Home() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        name: "Pallm Tech LLC",
+        url: "https://www.pallmtech.com",
+      },
+      {
+        "@type": "SoftwareApplication",
+        name: siteName,
+        applicationCategory: "BusinessApplication",
+        operatingSystem: "Web",
+        url: siteUrl,
+        creator: {
+          "@type": "Organization",
+          name: "Pallm Tech LLC",
+          url: "https://www.pallmtech.com",
+        },
+        audience: {
+          "@type": "Audience",
+          audienceType: "Estate Planning law firms",
+        },
+        areaServed: ["Florida", "United States"],
+        description:
+          "LawOps helps Estate Planning firms see what is happening, keep work moving, and improve profitability with better workflow visibility.",
+      },
+    ],
+  };
+
   return (
     <div className="site-shell">
       <SiteHeader current="home" />
 
       <main id="top">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         <section className="hero-band hero-wide">
           <div className="container hero-wide-copy-wrap">
             <div className="hero-wide-copy">
@@ -72,6 +161,9 @@ export default function Home() {
               </p>
               <p className="hero-proof-line">
                 See what is happening across the firm at a glance and where margin is leaking out of the workflow.
+              </p>
+              <p className="supporting-note">
+                Built for Estate Planning firms in Florida and across the United States.
               </p>
               <div className="hero-actions">
                 <ScheduleCallButton
@@ -307,6 +399,61 @@ export default function Home() {
                   <p className="roadmap-phase">{item.phase}</p>
                   <h3>{item.title}</h3>
                   <p>{item.body}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="section home-manifesto">
+          <div className="container section-stack">
+            <div className="section-head">
+              <p className="section-tag">Explore More</p>
+              <h2>Search-focused pages for Estate Planning buyers.</h2>
+              <p>
+                These pages go deeper on the exact problems Estate Planning firms
+                search for when they are trying to improve visibility, workflow,
+                and profitability.
+              </p>
+            </div>
+
+            <div className="pillar-grid">
+              {seoPages.map((page) => (
+                <article className="pillar-card" key={page.href}>
+                  <h3>{page.title}</h3>
+                  <p>{page.body}</p>
+                  <div className="inline-cta-row">
+                    <Link className="button button-secondary" href={page.href}>
+                      View Page
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="section surface-plain">
+          <div className="container section-stack">
+            <div className="section-head">
+              <p className="section-tag">Insights</p>
+              <h2>Articles for Estate Planning owners trying to grow without losing visibility.</h2>
+              <p>
+                These pieces explain the operational problems behind stalled work,
+                weak handoffs, poor visibility, and the difficulty of growing when
+                the owner is still carrying too much of the firm.
+              </p>
+            </div>
+
+            <div className="pillar-grid">
+              {insightArticles.map((article) => (
+                <article className="pillar-card" key={article.href}>
+                  <h3>{article.title}</h3>
+                  <div className="inline-cta-row">
+                    <Link className="button button-secondary" href={article.href}>
+                      Read Article
+                    </Link>
+                  </div>
                 </article>
               ))}
             </div>
