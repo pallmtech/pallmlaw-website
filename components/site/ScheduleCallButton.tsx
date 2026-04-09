@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
 type ScheduleCallButtonProps = {
@@ -18,6 +18,7 @@ export default function ScheduleCallButton({
 }: ScheduleCallButtonProps) {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const iframeRef = useRef<HTMLIFrameElement | null>(null);
   const embedUrl = useMemo(() => bookingEmbedUrl, []);
 
   useEffect(() => {
@@ -44,6 +45,28 @@ export default function ScheduleCallButton({
       window.removeEventListener("keydown", onKeyDown);
     };
   }, [open]);
+
+  const handleFrameLoad = () => {
+    const frame = iframeRef.current;
+
+    if (!frame) {
+      return;
+    }
+
+    try {
+      const frameUrl = new URL(frame.contentWindow?.location.href ?? "");
+
+      if (
+        frameUrl.origin === window.location.origin &&
+        frameUrl.pathname === "/thank-you"
+      ) {
+        setOpen(false);
+        window.location.href = frameUrl.toString();
+      }
+    } catch {
+      // Cross-origin iframe access is expected until the booking flow redirects back.
+    }
+  };
 
   return (
     <>
@@ -85,10 +108,12 @@ export default function ScheduleCallButton({
 
                 <div className="schedule-modal-frame">
                   <iframe
+                    ref={iframeRef}
                     src={embedUrl}
                     title="Schedule a LawOps intro meeting"
                     loading="lazy"
                     referrerPolicy="strict-origin-when-cross-origin"
+                    onLoad={handleFrameLoad}
                   />
                 </div>
 

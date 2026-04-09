@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Thank You | LawOps",
@@ -28,14 +27,6 @@ export default function ThankYouPage() {
           We will use this time to understand how your Estate Planning firm runs
           matters today, where visibility breaks down, and whether LawOps is a fit.
         </p>
-        <div className="inline-cta-row confirmation-actions">
-          <Link className="button button-primary" href="/">
-            Back To Site
-          </Link>
-          <Link className="button button-secondary" href="/estate-planning">
-            View Estate Planning
-          </Link>
-        </div>
       </section>
     </main>
   );
