@@ -11,10 +11,10 @@ export default function SiteFooter() {
         <div className="footer-layout footer-layout-top">
           <div className="footer-brand">
             <Image
-              src="/lawops-logo-light.svg"
+              src="/lawops-white-logo.png"
               alt="LawOps"
-              width={184}
-              height={44}
+              width={221}
+              height={58}
             />
             <p>
               LawOps helps Estate Planning firms see what is going on and keep work

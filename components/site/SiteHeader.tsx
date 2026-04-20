@@ -19,10 +19,10 @@ export default function SiteHeader({ current }: SiteHeaderProps) {
       <div className="container topbar-inner">
         <Link href="/" className="brand-mark" aria-label="LawOps home">
           <Image
-            src="/lawops-logo-dark.svg"
+            src="/lawops-fc-logo.png"
             alt="LawOps"
-            width={178}
-            height={42}
+            width={212}
+            height={55}
             priority
           />
         </Link>
