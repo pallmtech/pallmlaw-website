@@ -5,19 +5,21 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Estate Planning Software Florida",
+  title: "Florida Estate Planning Software Operating System",
   description:
-    "LawOps helps Florida Estate Planning firms track matters, improve workflow visibility, and keep work moving across drafting, signing, and binder delivery.",
+    "LawOps helps Florida Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
   alternates: {
     canonical: "/estate-planning-software-florida",
   },
 };
 
 const floridaPoints = [
-  "Matter visibility across the full Estate Planning workflow",
-  "Clearer handoffs between owner, attorneys, and staff",
-  "Stale matter detection and overdue work visibility",
-  "Better reporting on retained rate, timing, and team reliability",
+  "Visibility across every Florida Estate Planning matter",
+  "Automated workflows for intake, retained, drafting, signing, and binder handoffs",
+  "Firm-branded, stage-aware client communication for repeatable updates and milestones",
+  "Firm intelligence for retained rate, cycle timing, workload, and team reliability",
+  "AI agent connected through governed read-only operational visibility",
+  "More coming soon as Florida firms expand their operating model",
 ];
 
 export default function EstatePlanningSoftwareFloridaPage() {
@@ -30,12 +32,15 @@ export default function EstatePlanningSoftwareFloridaPage() {
             <div className="fit-intro">
               <p className="section-tag">Florida Estate Planning Software</p>
               <h1 className="page-title">
-                Estate Planning software for Florida firms that want to grow with more control.
+                The operating system for Florida Estate Planning firms.
               </h1>
+              <p className="hero-tagline">Track. Automate. Optimize.</p>
               <p>
-                LawOps is built for Estate Planning firms that need a clearer way
-                to see matters, manage handoffs, and understand what is happening
-                across the firm at any given moment.
+                LawOps helps Florida estate planning firms handle more matters
+                with the team they already have. It gives busy firms one place to
+                track every matter, automate repeatable legal workflow, keep
+                clients informed with firm-branded communication, and see the
+                numbers behind firm performance.
               </p>
             </div>
 
@@ -48,11 +53,13 @@ export default function EstatePlanningSoftwareFloridaPage() {
             </div>
 
             <div className="fit-panel fit-contact-panel">
-              <h2>For Florida firms that cannot grow on memory alone.</h2>
+              <h2>For Florida firms serving serious Estate Planning demand.</h2>
               <p>
-                If your Estate Planning firm is busy, team-driven, and trying to
-                scale without losing visibility into the work, LawOps is worth a
-                serious look.
+                Florida Estate Planning work is often high-volume, deadline-aware,
+                and client-service sensitive. LawOps gives Florida firms
+                controlled matter visibility, stage-aware client updates,
+                deadline-aware workflow automation, and the intelligence to grow
+                without losing operational control.
               </p>
               <div className="inline-cta-row">
                 <ScheduleCallButton

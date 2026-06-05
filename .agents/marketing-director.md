@@ -22,6 +22,7 @@ Owns:
 Must consult:
 
 - `research-icp` before major positioning or campaign changes
+- `product-positioning` before homepage rewrites, product narrative changes, or whole-site sales-message changes
 - `messaging` before homepage, offer, or outbound rewrites
 - `brand-strategy` before visual or tonal changes
 - `website-conversion` before landing page or CTA changes

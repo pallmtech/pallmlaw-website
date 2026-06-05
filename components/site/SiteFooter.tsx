@@ -17,8 +17,9 @@ export default function SiteFooter() {
               height={58}
             />
             <p>
-              LawOps helps Estate Planning firms see what is going on and keep work
-              moving.
+              LawOps helps Estate Planning firms track matters, automate
+              workflows, automate client communication, and surface firm
+              intelligence.
             </p>
             <p className="footer-owner">Built and operated by Pallm Tech LLC.</p>
           </div>
@@ -27,9 +28,11 @@ export default function SiteFooter() {
             <div className="footer-link-group">
               <h3>Product</h3>
               <Link href="/platform">Platform</Link>
+              <Link href="/workflow-automation">Workflow Automation</Link>
+              <Link href="/client-communication-automation">Client Communication</Link>
+              <Link href="/ai-agent-connected">AI Agent Connected</Link>
               <Link href="/estate-planning">Estate Planning</Link>
               <Link href="/estate-planning-software">Estate Planning Software</Link>
-              <Link href="/legal-workflow-software">Legal Workflow Software</Link>
               <Link href="/insights">Insights</Link>
             </div>
 
@@ -57,8 +60,9 @@ export default function SiteFooter() {
           <div className="footer-cta">
             <h2>Book a fit conversation.</h2>
             <p>
-              If your workflow is running on memory, handoffs, and status-chasing,
-              LawOps is worth a serious look.
+              If your firm is still relying on memory, scattered follow-up, and
+              status chasing to move matters forward, it is time to see what a
+              real operating system can do.
             </p>
             <ScheduleCallButton
               className="button button-primary"

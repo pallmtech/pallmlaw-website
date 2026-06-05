@@ -6,7 +6,7 @@ import SiteHeader from "@/components/site/SiteHeader";
 export const metadata: Metadata = {
   title: "Estate Planning Firm Visibility and Reporting",
   description:
-    "LawOps gives Estate Planning firms visibility into open matters, stale work, critical dates, retained rate, and team performance.",
+    "LawOps gives Estate Planning firms intelligence across open matters, stale work, critical dates, retained rate, workload, bottlenecks, and team performance.",
   alternates: {
     canonical: "/intelligence",
   },
@@ -30,11 +30,11 @@ export default function IntelligencePage() {
           <div className="container intelligence-hero-grid">
             <div className="section-head compact intelligence-head">
               <p className="section-tag">Intelligence</p>
-              <h1 className="page-title">See the firm at a glance and manage for better performance.</h1>
+              <h1 className="page-title">See what needs attention before it slows the firm down.</h1>
               <p>
-                LawOps helps leadership see what is open, what is stalled, how
-                reliably the team is executing, and where hidden drag is hurting
-                capacity, delivery, and profitability.
+                LawOps helps leadership see open work, stale matters, overdue
+                tasks, workload pressure, retained-rate signals, and team
+                reliability in time to act.
               </p>
             </div>
             <div className="intelligence-kpi-strip">
@@ -106,11 +106,11 @@ export default function IntelligencePage() {
             </div>
             <div className="section-head compact">
               <p className="section-tag">Management View</p>
-              <h2>Visibility should help the firm make more money, not just look informed.</h2>
+              <h2>Firm intelligence should change what leadership does next.</h2>
               <p>
-                The value is not in having charts. The value is knowing where
-                work is stalling, where the team is carrying too much risk, and
-                where delays are quietly eroding capacity and margin.
+                The value is not the chart. The value is knowing where work is
+                stalling, where capacity is getting tight, and where the firm
+                needs intervention before delays become client-service problems.
               </p>
             </div>
           </div>

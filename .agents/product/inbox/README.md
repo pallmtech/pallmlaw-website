@@ -1,9 +1,15 @@
 # Product To Marketing Inbox
 
-This folder contains product-originated handoffs copied into the website repo for the marketing team to read.
+This folder contains the consolidated product truth the website repo should use for marketing and positioning.
+
+Current source:
+
+- `current-product-truth.md`
 
 Rules:
 
-- use these handoffs to update messaging, positioning, and website content
+- consolidate new product-originated handoffs into `current-product-truth.md`
+- avoid accumulating one file per handoff unless Adam explicitly wants an audit trail
+- use the consolidated truth to update messaging, positioning, and website content
 - do not treat internal-only or dev-only work as public-ready
 - if a handoff says uncertain, marketing must keep the claim conservative

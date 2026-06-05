@@ -88,31 +88,39 @@ Purpose:
 
 - own positioning, offer framing, category language, and objection handling
 
-## 4. Brand Strategy
+## 4. Product Positioning
+
+Purpose:
+
+- own the whole-site sales narrative
+- make LawOps feel like one coherent operating system, not a set of SEO pages or isolated features
+- remove public copy that exposes internal marketing mechanics instead of buyer value
+
+## 5. Brand Strategy
 
 Purpose:
 
 - own voice, tone, visual posture, and brand coherence
 
-## 5. Website Conversion
+## 6. Website Conversion
 
 Purpose:
 
 - turn positioning into pages that explain, persuade, and convert
 
-## 6. Content Editorial
+## 7. Content Editorial
 
 Purpose:
 
 - own blog strategy, editorial themes, and long-form authority building
 
-## 7. Social Media
+## 8. Social Media
 
 Purpose:
 
 - own founder-led social content, hooks, post formats, and repurposing logic
 
-## 8. Outbound Growth
+## 9. Outbound Growth
 
 Purpose:
 
@@ -125,6 +133,7 @@ Purpose:
 Consult these agents automatically when the related surface changes:
 
 - `research-icp` -> ICP changes, buyer segmentation, or new market expansion
+- `product-positioning` -> homepage rewrites, platform narrative, product story, sales-message cohesion, or any section that feels like internal/SEO mechanics instead of buyer value
 - `messaging` -> homepage copy, landing pages, offers, CTAs, or positioning changes
 - `brand-strategy` -> visual direction, voice/tone shifts, or brand-system changes
 - `website-conversion` -> page structure, section order, CTA strategy, or conversion-flow changes

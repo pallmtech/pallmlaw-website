@@ -4,9 +4,9 @@ import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Insights for Estate Planning Firms",
+  title: "Estate Planning Firm Operations Insights",
   description:
-    "Insights from LawOps on Estate Planning workflow, visibility, profitability, and how firms can keep work moving with more control.",
+    "Operational guidance for Estate Planning firms that need clearer matter visibility, tighter workflow control, automated follow-up, and better firm intelligence.",
   alternates: {
     canonical: "/insights",
   },
@@ -15,18 +15,18 @@ export const metadata: Metadata = {
 const articles = [
   {
     href: "/insights/estate-planning-workflow-bottlenecks",
-    title: "Why Estate Planning firms lose time between retained and drafting",
-    body: "A practical look at where work slows down, how margin leaks out of the workflow, and why owners lose visibility early.",
+    title: "Where Estate Planning work slows down after retained",
+    body: "The cost is not just delay. It is unclear ownership, missed handoffs, and matters sitting too long before the next step happens.",
   },
   {
     href: "/insights/why-most-legal-software-does-not-create-visibility",
     title: "Why most legal software does not create real visibility",
-    body: "Most legal software stores information. That does not mean the owner can actually see what is happening across the firm.",
+    body: "Record storage does not tell leadership what is open, stuck, overdue, overloaded, or ready to move.",
   },
   {
     href: "/insights/how-estate-planning-firms-grow-without-losing-control",
     title: "How Estate Planning firms grow without losing control",
-    body: "Growth gets harder when the owner becomes the bottleneck. This piece explains what has to change operationally.",
+    body: "More matters should not mean more owner intervention. The firm needs a system for visibility, ownership, and repeatable follow-through.",
   },
 ];
 
@@ -39,11 +39,12 @@ export default function InsightsPage() {
           <div className="container section-stack">
             <div className="fit-intro">
               <p className="section-tag">Insights</p>
-              <h1 className="page-title">Ideas for Estate Planning firms that want more visibility and control.</h1>
+              <h1 className="page-title">Run the firm from operational truth.</h1>
               <p>
-                These articles are built for Estate Planning owners and operators
-                trying to understand where work slows down, why growth gets hard,
-                and what better visibility actually looks like in practice.
+                Estate Planning firms do not scale on memory, status meetings,
+                and scattered follow-up. They scale when matters, tasks,
+                deadlines, communication, and bottlenecks are visible enough to
+                manage.
               </p>
             </div>
 

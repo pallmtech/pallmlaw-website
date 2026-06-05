@@ -5,19 +5,21 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Legal Workflow Software",
+  title: "Legal Workflow Automation Software",
   description:
-    "LawOps is legal workflow software that helps Estate Planning firms manage stages, critical dates, task ownership, and matter visibility in one system.",
+    "LawOps helps Estate Planning firms automate legal workflow with matter-stage automation, deadline-aware tasks, client communication automation, and firm intelligence.",
   alternates: {
     canonical: "/legal-workflow-software",
   },
 };
 
 const workflowPoints = [
-  "Practice area, stage, critical date, and task structure",
-  "Shared visibility into open matters and task load",
-  "A clearer system for keeping work moving across the team",
-  "Owner-level visibility into bottlenecks and execution risk",
+  "Matter lifecycle automation built around practice area, stage, critical date, task, and matter context",
+  "Visibility across every matter and the next step it needs",
+  "Firm-branded client communication tied to workflow milestones",
+  "Run history and traceability for automation activity",
+  "Firm intelligence for stalled work, timing, workload, and team reliability",
+  "AI agent connected through governed read-only operational visibility",
 ];
 
 export default function LegalWorkflowSoftwarePage() {
@@ -30,12 +32,14 @@ export default function LegalWorkflowSoftwarePage() {
             <div className="fit-intro">
               <p className="section-tag">Legal Workflow Software</p>
               <h1 className="page-title">
-                Legal workflow software built for firms that need to see the work clearly.
+                Track, automate, and optimize Estate Planning workflow.
               </h1>
               <p>
-                Most legal software stores information. LawOps is built to help
-                firms understand what is open, what is stuck, and what needs
-                action next across the workflow.
+                Most legal software stores information. LawOps gives Estate
+                Planning firms an operating system for moving work: matter
+                visibility, workflow rules built around legal execution,
+                automated client communication, firm intelligence, and connected
+                AI visibility.
               </p>
             </div>
 
@@ -48,11 +52,12 @@ export default function LegalWorkflowSoftwarePage() {
             </div>
 
             <div className="fit-panel fit-contact-panel">
-              <h2>Start with Estate Planning, where the workflow is real.</h2>
+              <h2>Start with Estate Planning, where workflow can be measured and improved.</h2>
               <p>
-                LawOps is currently strongest for Estate Planning firms, where
-                repeatable handoffs and stage-based work create real visibility
-                and profitability gains.
+                Retained, drafting, signing, and binder work create repeatable
+                stages, handoffs, deadlines, reminders, and communication
+                moments. LawOps turns those patterns into repeatable workflow
+                automation the firm can actually run.
               </p>
               <div className="inline-cta-row">
                 <ScheduleCallButton

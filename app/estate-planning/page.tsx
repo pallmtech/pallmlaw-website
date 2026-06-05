@@ -8,7 +8,7 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "Estate Planning Software for Florida Firms",
   description:
-    "LawOps helps Florida and U.S. Estate Planning firms track every matter, tighten workflow handoffs, and improve profitability with better visibility.",
+    "LawOps helps Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
   alternates: {
     canonical: "/estate-planning",
   },
@@ -17,15 +17,17 @@ export const metadata: Metadata = {
 const metrics = [
   "Retained-rate visibility across consults and matters",
   "Critical-date timing from retained through binder",
+  "Firm-branded client communication for repeatable updates",
+  "Automation flows for stage-aware messages and milestone follow-up",
   "Stale matter detection after 5 idle days",
-  "Open-task and team reliability scorecards",
+  "Open-task, notes, and team reliability visibility",
 ];
 
 const sequence = [
   {
     phase: "01",
     title: "Retained",
-    body: "Track who has converted, who is pending, and where follow-up discipline is breaking down.",
+    body: "Track who has converted, who is pending, and where follow-up or next-step discipline is breaking down.",
   },
   {
     phase: "02",
@@ -35,12 +37,12 @@ const sequence = [
   {
     phase: "03",
     title: "Drafting",
-    body: "Keep drafting from disappearing into invisible queue time.",
+    body: "Keep drafting from disappearing into invisible queue time and trigger the right client communication as work moves.",
   },
   {
     phase: "04",
     title: "Signing To Binder",
-    body: "Measure the final stretch so client experience does not degrade right before completion.",
+    body: "Measure the final stretch and keep client updates tied to signing, binder, and completion milestones.",
   },
 ];
 
@@ -53,12 +55,12 @@ export default function EstatePlanningPage() {
           <div className="container estate-hero-grid">
             <div className="estate-hero-copy">
               <p className="section-tag">Estate Planning</p>
-              <h1 className="page-title">Help your Estate Planning firm produce more with better visibility.</h1>
+              <h1 className="page-title">The operating system for Estate Planning delivery.</h1>
               <p>
-                In Estate Planning, LawOps helps leadership see the firm at a
-                glance, tighten handoffs across the workflow, and improve the
-                economics of delivery through better visibility and control,
-                especially for firms trying to scale without losing grip on the work.
+                In Estate Planning, LawOps helps firms track every matter,
+                automate repeatable workflow, keep clients informed from the
+                matter lifecycle, and give leadership the operational truth
+                needed to scale without losing control.
               </p>
               <div className="inline-cta-row">
                 <ScheduleCallButton
@@ -85,26 +87,26 @@ export default function EstatePlanningPage() {
           <div className="container estate-ribbon">
             <div className="frame">
               <div className="frame-meta">
-                <span>Estate Planning Workflow</span>
-                <span>Control Layer</span>
+                <span>Estate Planning Matter</span>
+                <span>Record Surface</span>
               </div>
               <Image
-                src="/app-images/estate_planning_whiteboard.png"
-                alt="Estate planning workflow whiteboard"
-                width={1600}
-                height={1031}
+                src="/app-images/matter_record_surface.png"
+                alt="Matter record surface"
+                width={1025}
+                height={792}
                 className="screenshot"
               />
             </div>
             <div className="stack-card estate-explain-card">
               <p className="section-tag">Why This Wedge Works</p>
-              <h2>Estate Planning has enough structure to produce real business value.</h2>
+              <h2>Estate Planning has enough structure to become a repeatable operating system.</h2>
               <p>
                 The biggest drag is usually not one dramatic failure. It is the
                 slow leakage across transitions. LawOps is built to show where
-                matters slow down, where handoffs fail, and where margin gets
-                lost in the delivery process for Florida firms and other Estate
-                Planning practices with repeatable delivery work.
+                matters slow down, where handoffs fail, where notes are missing,
+                and where firm-branded client communication should follow a
+                stage, deadline, task, or milestone.
               </p>
               <h3>The transitions that matter</h3>
               <ul className="detail-list">
@@ -131,33 +133,33 @@ export default function EstatePlanningPage() {
             <div className="visual-column">
               <div className="frame">
                 <div className="frame-meta">
-                  <span>Firm Intelligence</span>
-                  <span>Estate Planning Metrics</span>
+                  <span>Client Communication</span>
+                  <span>Email Preview</span>
                 </div>
                 <Image
-                  src="/app-images/firm_intel_dashboard.png"
-                  alt="Firm intelligence dashboard"
-                  width={838}
-                  height={582}
+                  src="/app-images/email_client_facing_email_preview.png"
+                  alt="Client-facing email preview"
+                  width={1824}
+                  height={896}
                   className="screenshot"
                 />
               </div>
               <div className="mini-visual-grid">
                 <div className="frame mini">
                   <Image
-                    src="/app-images/KPI_measurement.png"
-                    alt="KPI measurements"
-                    width={583}
-                    height={439}
+                    src="/app-images/automation_flow_node_editor.png"
+                    alt="Automation flow node editor"
+                    width={795}
+                    height={767}
                     className="screenshot"
                   />
                 </div>
                 <div className="frame mini">
                   <Image
-                    src="/app-images/staff_scorecard_amatrix.png"
-                    alt="Staff scorecard matrix"
-                    width={816}
-                    height={584}
+                    src="/app-images/automation_flow_runs_log.png"
+                    alt="Automation flow runs log"
+                    width={876}
+                    height={886}
                     className="screenshot"
                   />
                 </div>

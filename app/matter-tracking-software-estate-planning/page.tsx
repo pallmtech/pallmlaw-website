@@ -5,19 +5,20 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Matter Tracking Software for Estate Planning Firms",
+  title: "Estate Planning Matter Tracking Software",
   description:
-    "LawOps gives Estate Planning firms matter tracking software that shows where matters stand, what is stalled, and what needs action next.",
+    "LawOps gives Estate Planning firms matter tracking inside an operating system for workflow automation, client communication automation, firm intelligence, and approved AI visibility.",
   alternates: {
     canonical: "/matter-tracking-software-estate-planning",
   },
 };
 
 const matterPoints = [
-  "Track where each matter stands across retained, drafting, signing, and binder",
-  "See stale matters and overdue work without relying on staff memory",
-  "Understand who owns the next step and where the workflow is slowing down",
-  "Give the owner a faster way to understand what is happening across the firm",
+  "Visibility across every matter, task, note, deadline, stage, and workload",
+  "Automated workflows for repeatable next steps, deadlines, reminders, and handoffs",
+  "Firm-branded client communication when matters hit key milestones",
+  "Firm intelligence that shows stalled work, timing, workload, and team reliability",
+  "AI agent connected through governed read-only operational visibility",
 ];
 
 export default function MatterTrackingSoftwareEstatePlanningPage() {
@@ -30,12 +31,13 @@ export default function MatterTrackingSoftwareEstatePlanningPage() {
             <div className="fit-intro">
               <p className="section-tag">Estate Planning Matter Tracking Software</p>
               <h1 className="page-title">
-                Matter tracking software for Estate Planning firms that need answers fast.
+                Matter tracking is only the start. LawOps is the operating system.
               </h1>
               <p>
-                LawOps helps you see where every matter stands, what is moving,
-                and where work is getting stuck so the owner does not have to
-                chase the team just to understand the day.
+                LawOps helps Estate Planning firms track every matter, automate
+                the work around it, keep clients informed, and give leadership a
+                live view of what is open, stalled, overdue, overloaded, or
+                ready to move.
               </p>
             </div>
 
@@ -48,10 +50,12 @@ export default function MatterTrackingSoftwareEstatePlanningPage() {
             </div>
 
             <div className="fit-panel fit-contact-panel">
-              <h2>Know where the matters are without walking the office.</h2>
+              <h2>Know where every matter stands without walking the office.</h2>
               <p>
                 For firms with physical files, fragmented systems, or too much
-                status-chasing, LawOps creates a better operational view of the work.
+                status-chasing, LawOps creates a better operating system: track
+                the matter, automate the workflow, communicate from the matter
+                lifecycle, and optimize the firm from real data.
               </p>
               <div className="inline-cta-row">
                 <ScheduleCallButton

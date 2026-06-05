@@ -24,8 +24,9 @@ export default function ThankYouPage() {
           Your 15-minute LawOps intro is on the calendar.
         </p>
         <p className="confirmation-copy">
-          We will use this time to understand how your Estate Planning firm runs
-          matters today, where visibility breaks down, and whether LawOps is a fit.
+          We will use the conversation to map how matters move today, where
+          follow-up or visibility breaks down, and whether LawOps fits your
+          firm's operating model.
         </p>
       </section>
     </main>

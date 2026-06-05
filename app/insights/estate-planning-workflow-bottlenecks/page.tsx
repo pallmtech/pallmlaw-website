@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Why Estate Planning Firms Lose Time Between Retained and Drafting",
   description:
-    "A practical look at the workflow bottlenecks that slow Estate Planning firms down between retained, drafting, signing, and binder.",
+    "Why Estate Planning matters stall between retained, drafting, signing, and binder, and what firms need to control the handoffs.",
   alternates: {
     canonical: "/insights/estate-planning-workflow-bottlenecks",
   },

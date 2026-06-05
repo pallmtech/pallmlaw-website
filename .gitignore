@@ -19,7 +19,10 @@ pnpm-debug.log*
 Thumbs.db
 
 # generated agent runtime state
+.next-dev.log
 .agents/reports/latest.md
 .agents/runtime/agent-runner.log
 .agents/runtime/agent-runner.pid
 .agents/runtime/product-inbox-state.json
+.agents/drafts/generated/
+.agents/tasks/done/

@@ -17,13 +17,13 @@ const fitSignals = [
   "You run an Estate Planning workflow with multiple handoffs",
   "Leadership lacks clean visibility into open work and bottlenecks",
   "Critical dates and status updates still depend too much on memory",
-  "You care more about operational control than cheap software",
+  "You want workflow control, communication consistency, and firm intelligence",
 ];
 
 const nonFitSignals = [
   "You want the cheapest possible task tool",
   "You have little workflow complexity and do not feel operational drag",
-  "You are looking for a generic all-in-one replacement for every legal tool immediately",
+  "You need an immediate replacement for every legal system the firm uses",
 ];
 
 export default function FitPage() {
@@ -37,9 +37,9 @@ export default function FitPage() {
               <p className="section-tag">Fit Conversation</p>
               <h1 className="page-title">Let's find out if LawOps is a fit.</h1>
               <p>
-                LawOps is for firms that want to handle more work with better
-                visibility, stronger follow-through, and healthier economics,
-                not firms looking for another generic legal tool.
+                LawOps is for Estate Planning firms that need clearer matter
+                visibility, repeatable workflows, automated client follow-up,
+                and leadership-level intelligence before adding more headcount.
               </p>
             </div>
             <div className="fit-panels">
@@ -63,9 +63,9 @@ export default function FitPage() {
             <div className="fit-panel fit-contact-panel">
               <h2>Book the conversation.</h2>
               <p>
-                Pick a time to talk through your workflow, your Estate Planning
-                volume, and whether LawOps can help your firm increase visibility,
-                throughput, and profitability.
+                Pick a time to talk through how matters move today, where
+                follow-up breaks down, and whether LawOps fits the way your firm
+                wants to track, automate, and optimize the work.
               </p>
               <div className="inline-cta-row">
                 <ScheduleCallButton

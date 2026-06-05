@@ -5,19 +5,21 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Estate Planning Software",
+  title: "Estate Planning Software Operating System",
   description:
-    "LawOps is estate planning software built to help firms see every matter, keep work moving, and improve profitability with better workflow visibility.",
+    "LawOps is the operating system for Estate Planning firms. Track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
   alternates: {
     canonical: "/estate-planning-software",
   },
 };
 
 const outcomes = [
-  "See where every matter stands without chasing for updates",
-  "Catch stalled work before it turns into unhappy clients and lost time",
-  "Keep drafting, signing, and binder work moving across multiple staff handoffs",
-  "Give leadership a clearer view of workload, bottlenecks, and profitability",
+  "Visibility across every matter",
+  "Automated workflows for repeatable matter stages, tasks, deadlines, and handoffs",
+  "Firm-branded client communication tied to workflow events",
+  "Firm intelligence for bottlenecks, retained rate, timing, and team reliability",
+  "AI agent connected through governed read-only operational visibility",
+  "A scalable operating system around the firm's actual process",
 ];
 
 export default function EstatePlanningSoftwarePage() {
@@ -30,12 +32,14 @@ export default function EstatePlanningSoftwarePage() {
             <div className="fit-intro">
               <p className="section-tag">Estate Planning Software</p>
               <h1 className="page-title">
-                Estate Planning software for firms that need visibility, not more chaos.
+                The operating system for Estate Planning firms.
               </h1>
+              <p className="hero-tagline">Track. Automate. Optimize.</p>
               <p>
-                LawOps helps Estate Planning firms see what is happening across the
-                firm, keep work moving through every handoff, and improve
-                profitability without relying on memory or hallway updates.
+                LawOps helps estate planning firms replace manual follow-up,
+                scattered spreadsheets, and invisible bottlenecks with a
+                structured operating system for matters, workflows, client
+                communication, and firm intelligence.
               </p>
             </div>
 
@@ -48,11 +52,13 @@ export default function EstatePlanningSoftwarePage() {
             </div>
 
             <div className="fit-panel fit-contact-panel">
-              <h2>Built for real Estate Planning delivery work.</h2>
+              <h2>Built for firms that need capacity without adding chaos.</h2>
               <p>
-                If your firm moves matters through retained, drafting, signing,
-                and binder with multiple staff handoffs, LawOps gives you a better
-                way to see the pipeline and keep work moving.
+                If your firm moves matters through intake, retained, drafting,
+                signing, and binder with multiple staff handoffs, LawOps helps
+                turn that process into a repeatable system. Tasks, deadlines,
+                reminders, notes, and client communications can be triggered
+                from where a matter is and what needs to happen next.
               </p>
               <div className="inline-cta-row">
                 <ScheduleCallButton

@@ -6,7 +6,7 @@ import SiteHeader from "@/components/site/SiteHeader";
 export const metadata: Metadata = {
   title: "Legal Workflow Software Platform",
   description:
-    "See how the LawOps platform helps Estate Planning firms manage practice area workflow, stages, critical dates, and task ownership in one system.",
+    "See how LawOps helps Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
   alternates: {
     canonical: "/platform",
   },
@@ -15,33 +15,33 @@ export const metadata: Metadata = {
 const layers = [
   {
     id: "01",
-    title: "Practice Area Configuration",
-    body: "Model the workflow around the practice, not a generic record type.",
+    title: "Visibility Across Every Matter",
+    body: "Keep matters, stages, tasks, notes, deadlines, workload, and operational context visible in one system.",
   },
   {
     id: "02",
-    title: "Stage Control",
-    body: "Define the actual handoff points the team works through every day.",
+    title: "Automated Workflows",
+    body: "Trigger matter-stage tasks, deadline-aware reminders, wait steps, and operational handoffs from the firm's actual process.",
   },
   {
     id: "03",
-    title: "Critical Date Discipline",
-    body: "Make dates operational instead of passive information fields.",
+    title: "Client Communication Automation",
+    body: "Use firm-branded email templates and automation flows to send stage-aware updates and matter-aware reminders.",
   },
   {
     id: "04",
-    title: "Task Ownership",
-    body: "Tie execution to actual owners, due dates, and task progress.",
+    title: "Firm Intelligence",
+    body: "Track retained rate, timing, stale matters, team reliability, workload, and practice-area reporting.",
   },
   {
     id: "05",
-    title: "Whiteboards And Dashboards",
-    body: "Give leadership and operators shared visibility into the pipeline.",
+    title: "Per-Firm Administration",
+    body: "Manage firm settings, branding, workflow configuration, and operational controls at the instance level.",
   },
   {
     id: "06",
-    title: "AI-Assisted Direction",
-    body: "Create the structured workflow foundation that makes safer automation and AI assistance useful over time.",
+    title: "AI Agent Connected",
+    body: "Expose approved operational tools to connected AI clients without permitting record changes or email sending.",
   },
 ];
 
@@ -56,16 +56,17 @@ export default function PlatformPage() {
               <span className="platform-blueprint-label">Operating Model</span>
               <div className="platform-blueprint-line">Practice Area</div>
               <div className="platform-blueprint-line">Stage</div>
-              <div className="platform-blueprint-line">Critical Date</div>
-              <div className="platform-blueprint-line">Task</div>
+              <div className="platform-blueprint-line">Notes + Deadlines</div>
+              <div className="platform-blueprint-line">Communication + Reporting</div>
             </div>
             <div className="section-head compact">
               <p className="section-tag">Platform</p>
-              <h1 className="page-title">One system to see the firm clearly and move more work forward.</h1>
+              <h1 className="page-title">One operating system for Estate Planning work, communication, and firm intelligence.</h1>
               <p>
-                LawOps is built around a disciplined model of practice area,
-                stage, critical date, and task so the firm can stop managing by
-                feel and start running with clearer visibility and better output.
+                LawOps is built around how legal work actually moves: matters,
+                stages, tasks, deadlines, notes, parties, client status,
+                communication, and reporting. The firm runs from operational
+                truth instead of memory and status chasing.
               </p>
             </div>
           </div>
@@ -75,14 +76,14 @@ export default function PlatformPage() {
           <div className="container platform-map-layout">
             <div className="frame">
               <div className="frame-meta">
-                <span>Workflow Architecture</span>
-                <span>Practice Area to Task</span>
+                <span>Automation Flow</span>
+                <span>Workflow to Email</span>
               </div>
               <Image
-                src="/app-images/stages_tasks_roadmap.png"
-                alt="Stage and task roadmap"
-                width={1200}
-                height={776}
+                src="/app-images/automation_flow_canvas.png"
+                alt="Automation flow canvas"
+                width={1673}
+                height={608}
                 className="screenshot"
               />
             </div>
@@ -104,27 +105,27 @@ export default function PlatformPage() {
           <div className="container platform-story-grid">
             <div className="frame">
               <div className="frame-meta">
-                <span>Execution Detail</span>
-                <span>Stage Locked Work</span>
+                <span>Email Templates</span>
+                <span>Client-Facing Content</span>
               </div>
               <Image
-                src="/app-images/stages_tasks_roadmap.png"
-                alt="Stages and tasks detail"
-                width={1200}
-                height={776}
+                src="/app-images/email_template_list.png"
+                alt="Email template list"
+                width={1484}
+                height={719}
                 className="screenshot"
               />
             </div>
             <div className="frame">
               <div className="frame-meta">
-                <span>Matter View</span>
-                <span>Operator Surface</span>
+                <span>Firm Admin</span>
+                <span>Brand Controls</span>
               </div>
               <Image
-                src="/app-images/matter_view.png"
-                alt="Matter view"
-                width={1375}
-                height={987}
+                src="/app-images/firm_brand_control_admin.png"
+                alt="Firm brand control admin"
+                width={1426}
+                height={749}
                 className="screenshot"
               />
             </div>

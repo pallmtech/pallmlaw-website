@@ -20,6 +20,7 @@ Rules:
 Current marketing agent stack:
 
 - `marketing-director.md`
+- `product-positioning.md`
 - `brand-strategy.md`
 - `messaging.md`
 - `website-conversion.md`
