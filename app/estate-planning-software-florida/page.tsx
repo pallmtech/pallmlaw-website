@@ -5,7 +5,7 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Florida Estate Planning Software Operating System",
+  title: "Florida Estate Planning Operating and Intelligence System",
   description:
     "LawOps helps Florida Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
   alternates: {
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 
 const floridaPoints = [
   "Visibility across every Florida Estate Planning matter",
-  "Automated workflows for intake, retained, drafting, signing, and binder handoffs",
+  "Automated workflows for retained, drafting, signing, and binder handoffs",
   "Firm-branded, stage-aware client communication for repeatable updates and milestones",
   "Firm intelligence for retained rate, cycle timing, workload, and team reliability",
   "AI agent connected through governed read-only operational visibility",
-  "More coming soon as Florida firms expand their operating model",
+  "Dedicated per-firm infrastructure with a separate instance and database",
 ];
 
 export default function EstatePlanningSoftwareFloridaPage() {
@@ -32,7 +32,7 @@ export default function EstatePlanningSoftwareFloridaPage() {
             <div className="fit-intro">
               <p className="section-tag">Florida Estate Planning Software</p>
               <h1 className="page-title">
-                The operating system for Florida Estate Planning firms.
+                The operating and intelligence system for Florida Estate Planning firms.
               </h1>
               <p className="hero-tagline">Track. Automate. Optimize.</p>
               <p>
@@ -40,7 +40,9 @@ export default function EstatePlanningSoftwareFloridaPage() {
                 with the team they already have. It gives busy firms one place to
                 track every matter, automate repeatable legal workflow, keep
                 clients informed with firm-branded communication, and see the
-                numbers behind firm performance.
+                numbers behind firm performance. LawOps works alongside the
+                firm's existing practice management, drafting, and intake
+                tools rather than replacing them.
               </p>
             </div>
 

@@ -6,16 +6,16 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "AI Agent Connected MCP Tools for Law Firm Operations",
+  title: "AI Agent Connected Intelligence for Estate Planning Firms",
   description:
-    "LawOps gives approved AI agents governed, read-only MCP tools for operational intelligence across matters, workload, deadlines, bottlenecks, communication context, and firm performance.",
+    "Ask Estate Planning operational questions in plain English through LawOps, with approved AI access that stays read-only, scoped, consent-based, and audited.",
   alternates: {
     canonical: "/ai-agent-connected",
   },
 };
 
 const aiQuestions = [
-  "Which matters have gone stale this week?",
+  "Which retained matters have had no recent activity?",
   "Which team member has the most overdue tasks?",
   "What matters are blocked before signing?",
   "What automation runs failed or are waiting?",
@@ -86,12 +86,14 @@ export default function AiAgentConnectedPage() {
             </div>
             <div className="section-head compact">
               <p className="section-tag">AI Agent Connected</p>
-              <h1 className="page-title">A governed toolbox for firm-supporting AI agents.</h1>
+              <h1 className="page-title">Ask your firm's data a real question. Get a real answer.</h1>
               <p>
-                LawOps gives approved AI agents read-only operational tools for
-                understanding matters, workload, deadlines, bottlenecks,
-                communication history, and firm performance without direct
-                database access or permission to change firm data.
+                Approved AI assistants can answer practical questions about
+                retained matters, workload, deadlines, bottlenecks,
+                communication history, and firm performance in plain English.
+                LawOps provides the trust layer: read-only, scoped,
+                consent-based tools with audited activity and no direct
+                database access.
               </p>
               <div className="inline-cta-row">
                 <ScheduleCallButton
@@ -110,11 +112,12 @@ export default function AiAgentConnectedPage() {
           <div className="container estate-grid">
             <div className="estate-copy">
               <p className="section-tag">Operational Intelligence</p>
-              <h2>Ask your firm what needs attention.</h2>
+              <h2>Operational answers, not generic AI chat.</h2>
               <p>
-                This is not generic AI chat and it is not autonomous legal work.
-                Approved agents can use LawOps tools to retrieve structured,
-                current operational context from the firm's system of record.
+                Approved agents use structured LawOps tools to retrieve current
+                operational context and answer what needs attention. They
+                cannot change records, send emails, execute workflows, or
+                perform autonomous legal work.
               </p>
               <ul className="detail-list">
                 {aiQuestions.map((question) => (

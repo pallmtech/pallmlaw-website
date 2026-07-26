@@ -232,8 +232,8 @@ img {
 .hero-split {
   display: grid;
   gap: 44px;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  align-items: center;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr);
+  align-items: start;
 }
 
 .hero-wide-copy {
@@ -243,10 +243,10 @@ img {
 
 .hero-wide-copy h1 {
   margin: 0;
-  max-width: 13ch;
+  max-width: 14ch;
   color: var(--ink);
   font-family: var(--font-serif), serif;
-  font-size: clamp(3rem, 5.2vw, 5.25rem);
+  font-size: clamp(3rem, 4.5vw, 4.25rem);
   font-weight: 600;
   letter-spacing: -0.03em;
   line-height: 0.96;
@@ -294,6 +294,8 @@ img {
   display: grid;
   gap: 16px;
   min-width: 0;
+  align-self: start;
+  padding-top: 58px;
 }
 
 .hero-product-visual .frame {
@@ -1394,6 +1396,7 @@ img {
 .footer-link-group {
   display: grid;
   gap: 14px;
+  align-content: start;
 }
 
 .footer-link-group h3 {
@@ -1649,6 +1652,7 @@ img {
   .hero-product-visual {
     width: calc(100vw - 24px);
     max-width: calc(100vw - 24px);
+    padding-top: 0;
   }
 
   .sales-proof-copy,

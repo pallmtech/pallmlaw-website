@@ -17,9 +17,9 @@ export default function SiteFooter() {
               height={58}
             />
             <p>
-              LawOps helps Estate Planning firms track matters, automate
-              workflows, automate client communication, and surface firm
-              intelligence.
+              LawOps is the operating and intelligence system for Estate
+              Planning firms: visible matters, enforced workflows, automated
+              client communication, and answers owners can act on.
             </p>
             <p className="footer-owner">Built and operated by Pallm Tech LLC.</p>
           </div>
@@ -61,8 +61,8 @@ export default function SiteFooter() {
             <h2>Book a fit conversation.</h2>
             <p>
               If your firm is still relying on memory, scattered follow-up, and
-              status chasing to move matters forward, it is time to see what a
-              real operating system can do.
+              status chasing to move matters forward, see what an operating and
+              intelligence system can make visible, enforce, and measure.
             </p>
             <ScheduleCallButton
               className="button button-primary"

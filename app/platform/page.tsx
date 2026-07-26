@@ -4,9 +4,9 @@ import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Legal Workflow Software Platform",
+  title: "Estate Planning Operating and Intelligence Platform",
   description:
-    "See how LawOps helps Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
+    "See the LawOps operating and intelligence system for Estate Planning firms, built on configurable workflows and intelligence derived from Matters and Tasks.",
   alternates: {
     canonical: "/platform",
   },
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 const layers = [
   {
     id: "01",
-    title: "Visibility Across Every Matter",
-    body: "Keep matters, stages, tasks, notes, deadlines, workload, and operational context visible in one system.",
+    title: "Configurable Practice-Area Engine",
+    body: "Configure stages, critical dates, and task templates independently by practice area and matter subtype, with Estate Planning as the current market focus.",
   },
   {
     id: "02",
@@ -31,7 +31,7 @@ const layers = [
   {
     id: "04",
     title: "Firm Intelligence",
-    body: "Track retained rate, timing, stale matters, team reliability, workload, and practice-area reporting.",
+    body: "Derive retention, cycle time, stalled retained matters, workload, and team reliability from structured Matters and Tasks.",
   },
   {
     id: "05",
@@ -61,12 +61,13 @@ export default function PlatformPage() {
             </div>
             <div className="section-head compact">
               <p className="section-tag">Platform</p>
-              <h1 className="page-title">One operating system for Estate Planning work, communication, and firm intelligence.</h1>
+              <h1 className="page-title">One operating and intelligence system for Estate Planning delivery.</h1>
               <p>
-                LawOps is built around how legal work actually moves: matters,
-                stages, tasks, deadlines, notes, parties, client status,
-                communication, and reporting. The firm runs from operational
-                truth instead of memory and status chasing.
+                LawOps combines execution and intelligence in the same model:
+                Matters move through configured stages, critical dates, and
+                task templates, while the work itself produces the answers
+                leadership needs. It works alongside the firm's existing
+                practice management, drafting, and intake tools.
               </p>
             </div>
           </div>

@@ -8,7 +8,7 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "Workflow Automation for Estate Planning Firms",
   description:
-    "LawOps helps Estate Planning firms automate matter stages, tasks, deadlines, handoffs, waits, notes, and client communication around legal matter execution.",
+    "LawOps automates Estate Planning matter stages, tasks, deadlines, handoffs, waits, and client communication while producing structured data for firm intelligence.",
   alternates: {
     canonical: "/workflow-automation",
   },
@@ -44,7 +44,9 @@ export default function WorkflowAutomationPage() {
                 LawOps gives Estate Planning firms a configurable workflow engine
                 built around how legal work actually moves: matters, stages,
                 tasks, deadlines, notes, parties, client status, and
-                practice-area-specific processes.
+                practice-area-specific processes. Completed work also feeds the
+                intelligence layer for cycle time, stalled matters, workload,
+                and team reliability.
               </p>
               <div className="inline-cta-row">
                 <ScheduleCallButton

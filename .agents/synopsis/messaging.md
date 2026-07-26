@@ -2,14 +2,16 @@
 
 Category framing:
 
-- LawOps is an operating system for law firms
-- more specifically, it is the operating system for Estate Planning firms
+- LawOps is the operating and intelligence system for Estate Planning firms
+- public buyer-facing copy must stay scoped to Estate Planning firms
+- reflective founder context may describe the longer-term law-firm vision only in clearly future-tense language
 - it should not be framed as a generic case management platform
 
 Core promise:
 
 - help Estate Planning firms handle more matters with the team they already have
-- replace manual follow-up, scattered spreadsheets, and invisible bottlenecks with a structured operating system for matters, workflows, client communication, and firm intelligence
+- turn retained matters into a visible, enforced, measurable pipeline
+- give owners answers about stalled work, cycle time, retention, workload, and team reliability without replacing existing practice management, drafting, or intake tools
 
 Primary differentiators:
 
@@ -19,6 +21,8 @@ Primary differentiators:
 - Notes are a primary operational surface, not just incidental record comments
 - approved AI tools can connect to scoped, read-only operational surfaces with user-attributed auditability
 - firm intelligence surfaces operational truth, not just record storage
+- Matters and Tasks are the two core structured objects; retention by subtype, stage-to-stage cycle time, stalled retained matters, and team performance are derived from disciplined operational data
+- the practice-area engine can configure stages, critical dates, and task templates independently by matter subtype; this is architectural breadth, while Estate Planning remains the current commercial focus
 - LawOps is designed as firm-owned infrastructure, not rented generic SaaS
 - the system is configurable to the firm's workflow instead of forcing the firm into a template
 
@@ -41,7 +45,7 @@ AI stance:
 
 Phrases to favor:
 
-- The Operating System for Estate Planning Firms
+- The Operating and Intelligence System for Estate Planning Firms
 - Track. Automate. Optimize.
 - workflow control
 - matter lifecycle automation

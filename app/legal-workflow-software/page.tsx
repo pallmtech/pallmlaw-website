@@ -5,9 +5,9 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Legal Workflow Automation Software",
+  title: "Estate Planning Workflow Automation and Intelligence",
   description:
-    "LawOps helps Estate Planning firms automate legal workflow with matter-stage automation, deadline-aware tasks, client communication automation, and firm intelligence.",
+    "LawOps gives Estate Planning firms workflow automation and intelligence across retained matters, critical dates, tasks, client communication, and performance.",
   alternates: {
     canonical: "/legal-workflow-software",
   },
@@ -36,7 +36,7 @@ export default function LegalWorkflowSoftwarePage() {
               </h1>
               <p>
                 Most legal software stores information. LawOps gives Estate
-                Planning firms an operating system for moving work: matter
+                Planning firms an operating and intelligence system for moving work: matter
                 visibility, workflow rules built around legal execution,
                 automated client communication, firm intelligence, and connected
                 AI visibility.

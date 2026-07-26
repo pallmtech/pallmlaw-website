@@ -6,20 +6,20 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Estate Planning Software for Florida Firms",
+  title: "Estate Planning Operating and Intelligence System",
   description:
-    "LawOps helps Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
+    "LawOps is the operating and intelligence system for Estate Planning delivery, with visible retained matters, enforced workflows, and measurable firm performance.",
   alternates: {
     canonical: "/estate-planning",
   },
 };
 
 const metrics = [
-  "Retained-rate visibility across consults and matters",
+  "Retention-rate visibility by Estate Planning matter subtype",
   "Critical-date timing from retained through binder",
   "Firm-branded client communication for repeatable updates",
   "Automation flows for stage-aware messages and milestone follow-up",
-  "Stale matter detection after 5 idle days",
+  "Stalled retained-matter detection beyond the firm's defined threshold",
   "Open-task, notes, and team reliability visibility",
 ];
 
@@ -27,7 +27,7 @@ const sequence = [
   {
     phase: "01",
     title: "Retained",
-    body: "Track who has converted, who is pending, and where follow-up or next-step discipline is breaking down.",
+    body: "See which retained matters are moving, which are waiting, and where next-step discipline is breaking down.",
   },
   {
     phase: "02",
@@ -55,12 +55,15 @@ export default function EstatePlanningPage() {
           <div className="container estate-hero-grid">
             <div className="estate-hero-copy">
               <p className="section-tag">Estate Planning</p>
-              <h1 className="page-title">The operating system for Estate Planning delivery.</h1>
+              <h1 className="page-title">The operating and intelligence system for Estate Planning delivery.</h1>
               <p>
-                In Estate Planning, LawOps helps firms track every matter,
+                LawOps helps Estate Planning firms track every retained matter,
                 automate repeatable workflow, keep clients informed from the
                 matter lifecycle, and give leadership the operational truth
                 needed to scale without losing control.
+                It works alongside Clio, LEAP, WealthCounsel, and similar tools
+                rather than replacing practice management, drafting, or intake
+                systems.
               </p>
               <div className="inline-cta-row">
                 <ScheduleCallButton
@@ -100,7 +103,7 @@ export default function EstatePlanningPage() {
             </div>
             <div className="stack-card estate-explain-card">
               <p className="section-tag">Why This Wedge Works</p>
-              <h2>Estate Planning has enough structure to become a repeatable operating system.</h2>
+              <h2>Estate Planning has enough structure to become measurable.</h2>
               <p>
                 The biggest drag is usually not one dramatic failure. It is the
                 slow leakage across transitions. LawOps is built to show where
@@ -123,7 +126,7 @@ export default function EstatePlanningPage() {
           <div className="container estate-metrics-layout">
             <div className="estate-metric-list">
               <p className="section-tag">Operational Proof</p>
-              <h2>What an owner can actually use to run a more profitable firm.</h2>
+              <h2>What an owner can use to run the firm with clearer performance data.</h2>
               {metrics.map((metric) => (
                 <div className="estate-metric-item" key={metric}>
                   {metric}

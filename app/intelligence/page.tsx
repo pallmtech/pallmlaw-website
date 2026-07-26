@@ -4,21 +4,19 @@ import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Estate Planning Firm Visibility and Reporting",
+  title: "Firm Intelligence for Estate Planning Firms",
   description:
-    "LawOps gives Estate Planning firms intelligence across open matters, stale work, critical dates, retained rate, workload, bottlenecks, and team performance.",
+    "LawOps derives retention, cycle time, stalled retained matters, workload, and team performance from two core objects: Matters and Tasks.",
   alternates: {
     canonical: "/intelligence",
   },
 };
 
 const intelligenceAreas = [
-  "Open matters and related open tasks",
-  "Average pipeline completion across active matters",
-  "Percent of tasks not overdue",
-  "Stale matters idle five days or more",
-  "Retained-rate visibility for Estate Planning",
-  "Team performance scorecards by person and period",
+  "Retention and conversion rates by Estate Planning matter subtype",
+  "Stage-to-stage cycle time against firm-defined targets",
+  "Stalled retained matters with no recent activity, flagged for action",
+  "Team scorecards for open task load, on-time completion, and throughput",
 ];
 
 export default function IntelligencePage() {
@@ -30,11 +28,13 @@ export default function IntelligencePage() {
           <div className="container intelligence-hero-grid">
             <div className="section-head compact intelligence-head">
               <p className="section-tag">Intelligence</p>
-              <h1 className="page-title">See what needs attention before it slows the firm down.</h1>
+              <h1 className="page-title">Two simple objects. Real firm intelligence.</h1>
               <p>
-                LawOps helps leadership see open work, stale matters, overdue
-                tasks, workload pressure, retained-rate signals, and team
-                reliability in time to act.
+                LawOps runs on Matters and Tasks. A workflow engine generates
+                the work, the team completes it, and LawOps derives retention,
+                cycle time, stalled-matter, workload, and performance answers
+                automatically instead of treating every report as a separate
+                configuration project.
               </p>
             </div>
             <div className="intelligence-kpi-strip">
@@ -108,9 +108,10 @@ export default function IntelligencePage() {
               <p className="section-tag">Management View</p>
               <h2>Firm intelligence should change what leadership does next.</h2>
               <p>
-                The value is not the chart. The value is knowing where work is
-                stalling, where capacity is getting tight, and where the firm
-                needs intervention before delays become client-service problems.
+                See which retained matters have stopped moving, how long each
+                stage takes against the firm's targets, which subtypes retain,
+                and where task load or reliability needs intervention before
+                delays become client-service or revenue problems.
               </p>
             </div>
           </div>

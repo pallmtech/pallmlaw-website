@@ -122,8 +122,9 @@ export default function ClientCommunicationAutomationPage() {
               <h2>Every client should know what happens next.</h2>
               <p>
                 Staff should not need spreadsheets, memory, and one-off emails
-                to keep clients informed. LawOps helps firms create consistent
-                client experience around the actual lifecycle of a matter.
+                to keep clients informed. LawOps helps Estate Planning firms
+                create a consistent client experience while communication
+                history remains part of the same operational record.
               </p>
             </div>
             <div className="pillar-grid">

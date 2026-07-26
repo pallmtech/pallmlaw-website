@@ -10,7 +10,7 @@ const productLinks = [
   {
     href: "/platform",
     label: "Platform Overview",
-    description: "The operating system model",
+    description: "The operating and intelligence model",
   },
   {
     href: "/workflow-automation",

@@ -7,35 +7,35 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 import { siteName, siteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "The Operating System for Estate Planning Firms",
+  title: "The Operating and Intelligence System for Estate Planning Firms",
   description:
-    "LawOps helps Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
+    "LawOps is the operating and intelligence system for Estate Planning firms, turning retained matters into a visible, enforced, measurable pipeline.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "The Operating System for Estate Planning Firms",
+    title: "The Operating and Intelligence System for Estate Planning Firms",
     description:
-      "LawOps helps Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
+      "LawOps turns retained Estate Planning matters into a visible, enforced, measurable pipeline and gives owners answers about stalled work and revenue risk.",
     url: siteUrl,
   },
 };
 
 const pillars = [
   {
-    title: "Visibility Across Every Matter",
+    title: "Operational Visibility",
     body:
-      "Know where every matter stands across tasks, notes, deadlines, stages, and team workload without chasing updates.",
+      "Know where every retained matter stands across tasks, notes, deadlines, stages, and team workload without chasing updates.",
   },
   {
-    title: "Automated Workflows",
+    title: "Firm Intelligence",
     body:
-      "Turn the firm's best process into repeatable matter-stage, task, deadline, reminder, and handoff automation.",
+      "See retention, cycle time, stale matters, workload, and team reliability derived from the work already happening in LawOps.",
   },
   {
-    title: "Automated Client Communication",
+    title: "Automated Execution",
     body:
-      "Send firm-branded, stage-aware emails and matter-aware reminders that keep clients informed and matters moving.",
+      "Turn the firm's best process into repeatable tasks, deadlines, handoffs, and firm-branded client communication.",
   },
 ];
 
@@ -138,7 +138,7 @@ const seoPages = [
   {
     href: "/workflow-automation",
     title: "Automate The Workflow",
-    body: "Turn matter stages, tasks, deadlines, handoffs, waits, and reminders into a repeatable operating system.",
+    body: "Turn matter stages, tasks, deadlines, handoffs, waits, and reminders into a repeatable operating and intelligence system.",
   },
   {
     href: "/ai-agent-connected",
@@ -148,7 +148,7 @@ const seoPages = [
   {
     href: "/estate-planning-software",
     title: "See LawOps For Estate Planning",
-    body: "Control matters, handoffs, client communication, and delivery visibility in one operating system.",
+    body: "Control matters, handoffs, client communication, and delivery intelligence in one connected system.",
   },
   {
     href: "/estate-planning-software-florida",
@@ -204,11 +204,11 @@ export default function Home() {
         },
         audience: {
           "@type": "Audience",
-          audienceType: "Estate Planning law firms",
+          audienceType: "Estate Planning firms",
         },
         areaServed: ["Florida", "United States"],
         description:
-          "LawOps helps Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
+          "LawOps is the operating and intelligence system for Estate Planning firms, combining matter visibility, workflow automation, client communication, and firm intelligence.",
       },
     ],
   };
@@ -225,16 +225,16 @@ export default function Home() {
         <section className="hero-band hero-wide">
           <div className="container hero-split">
             <div className="hero-wide-copy">
-              <p className="eyebrow">Estate Planning Operating System</p>
+              <p className="eyebrow">Estate Planning Operations + Intelligence</p>
               <h1>
-                The Operating System for Estate Planning Firms
+                Operations and Intelligence for Estate Planning Firms
               </h1>
-              <p className="hero-tagline">Track. Automate. Optimize.</p>
+              <p className="hero-tagline">Track Automate Visualize</p>
               <p className="lede">
-                LawOps helps estate planning firms handle more matters with the
-                team they already have by giving them structured matter
-                visibility, automated workflows, client communication
-                automation, and firm intelligence in one connected system.
+                LawOps turns retained matters into a visible, enforced,
+                measurable pipeline and gives owners real answers about where
+                work is stuck and revenue is at risk, without replacing the
+                tools the firm already uses.
               </p>
               <ul className="hero-feature-list">
                 <li>Visibility Across Every Matter</li>
@@ -283,11 +283,12 @@ export default function Home() {
           <div className="container section-stack">
             <div className="section-head">
               <p className="section-tag">Category</p>
-              <h2>A structured operating system for the work your firm already does.</h2>
+              <h2>Operational control and firm intelligence from the same work.</h2>
               <p>
                 LawOps replaces manual follow-up, scattered spreadsheets, and
-                invisible bottlenecks with one operating system for matters,
-                workflows, client communication, and firm intelligence.
+                invisible bottlenecks with one operating and intelligence
+                system for retained matters, workflows, client communication,
+                and leadership decisions.
               </p>
             </div>
 
@@ -303,7 +304,7 @@ export default function Home() {
             <div className="frame brand-collateral-frame">
               <div className="frame-meta">
                 <span>Track + Automate + Optimize</span>
-                <span>Operating System Model</span>
+                <span>Operating + Intelligence Model</span>
               </div>
               <Image
                 src="/app-images/track_automate_optimize_triptych.png"
@@ -320,7 +321,7 @@ export default function Home() {
           <div className="container section-stack">
             <div className="section-head">
               <p className="section-tag">Product Proof</p>
-              <h2>The product shows how the operating system works.</h2>
+              <h2>The product shows how the operating and intelligence system works.</h2>
               <p>
                 Buyers should not have to imagine the workflow. These operating
                 surfaces show how LawOps tracks matters, automates work, and
@@ -376,9 +377,10 @@ export default function Home() {
               <p className="section-tag">Firm Intelligence</p>
               <h2>See the work, the workload, and the bottlenecks before they slow delivery.</h2>
               <p>
-                LawOps gives leadership a live operational view across matter
-                progress, workload, bottlenecks, retained status, timing, and
-                team reliability so the firm can optimize from real data.
+                LawOps runs on two core objects: Matters and Tasks. As the team
+                completes the work, LawOps automatically derives retention
+                rates, cycle times, stalled retained matters, workload, and team
+                reliability without building each report as a separate system.
               </p>
               <div className="proof-grid">
                 {proofCards.map((item) => (
@@ -497,11 +499,12 @@ export default function Home() {
           <div className="container section-stack">
             <div className="section-head">
               <p className="section-tag">AI Agent Connected</p>
-              <h2>AI agent connected, without giving AI control of firm data.</h2>
+              <h2>Ask your firm's data a real question and get a real answer.</h2>
               <p>
-                LawOps can expose approved read-only operational tools through a
-                controlled connector. The story is not autonomous AI. It is scoped
-                visibility, user consent, and audited activity.
+                Approved AI assistants can answer practical questions about
+                retained matters, workload, deadlines, bottlenecks, and
+                performance in plain English. Access stays read-only, scoped,
+                consent-governed, and audited.
               </p>
               <div className="inline-cta-row">
                 <Link className="button button-secondary" href="/ai-agent-connected">
@@ -558,7 +561,8 @@ export default function Home() {
               <p>
                 Some firms start with communication. Others need workflow
                 automation, matter visibility, or governed AI access. LawOps is
-                built to connect those problems into one operating system.
+                built to connect those problems into one operating and
+                intelligence system.
               </p>
             </div>
 
@@ -577,6 +581,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* TESTIMONIAL PLACEHOLDER: pending Pierce Legal Group written permission, do not populate without explicit approved language from Adam */}
 
         <section className="section surface-plain">
           <div className="container section-stack">

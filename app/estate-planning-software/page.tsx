@@ -5,9 +5,9 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Estate Planning Software Operating System",
+  title: "Estate Planning Operating and Intelligence System",
   description:
-    "LawOps is the operating system for Estate Planning firms. Track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
+    "LawOps is the operating and intelligence system for Estate Planning firms, combining workflow control, client communication, and measurable firm performance.",
   alternates: {
     canonical: "/estate-planning-software",
   },
@@ -19,7 +19,7 @@ const outcomes = [
   "Firm-branded client communication tied to workflow events",
   "Firm intelligence for bottlenecks, retained rate, timing, and team reliability",
   "AI agent connected through governed read-only operational visibility",
-  "A scalable operating system around the firm's actual process",
+  "A scalable operating and intelligence system around the firm's actual process",
 ];
 
 export default function EstatePlanningSoftwarePage() {
@@ -32,14 +32,16 @@ export default function EstatePlanningSoftwarePage() {
             <div className="fit-intro">
               <p className="section-tag">Estate Planning Software</p>
               <h1 className="page-title">
-                The operating system for Estate Planning firms.
+                The operating and intelligence system for Estate Planning firms.
               </h1>
               <p className="hero-tagline">Track. Automate. Optimize.</p>
               <p>
                 LawOps helps estate planning firms replace manual follow-up,
                 scattered spreadsheets, and invisible bottlenecks with a
-                structured operating system for matters, workflows, client
-                communication, and firm intelligence.
+                structured operating and intelligence system for matters,
+                workflows, client communication, and firm performance. It works
+                alongside Clio, LEAP, WealthCounsel, and similar tools without
+                replacing practice management, drafting, or intake systems.
               </p>
             </div>
 

@@ -37,9 +37,10 @@ export default function FitPage() {
               <p className="section-tag">Fit Conversation</p>
               <h1 className="page-title">Let's find out if LawOps is a fit.</h1>
               <p>
-                LawOps is for Estate Planning firms that need clearer matter
-                visibility, repeatable workflows, automated client follow-up,
-                and leadership-level intelligence before adding more headcount.
+                LawOps is the operating and intelligence system for Estate
+                Planning firms that need clearer matter visibility, repeatable
+                workflows, automated client follow-up, and leadership-level
+                answers before adding more headcount.
               </p>
             </div>
             <div className="fit-panels">
