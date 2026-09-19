@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 const intelligenceAreas = [
-  "Retention and conversion rates by Estate Planning matter subtype",
+  "Retained-rate visibility by Estate Planning matter subtype",
   "Stage-to-stage cycle time against firm-defined targets",
   "Stalled retained matters with no recent activity, flagged for action",
   "Team scorecards for open task load, on-time completion, and throughput",

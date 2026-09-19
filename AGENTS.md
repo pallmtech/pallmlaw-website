@@ -18,7 +18,7 @@ This repo exists to:
 Agents may improve messaging and design.
 Agents may not invent product capabilities, customer proof, or fake performance claims.
 
-The app repo at `C:\Users\Adam\Pallm Tech Local Dev\LawOps` is the product source of truth when capability claims are in question. The product repository retains its historical folder name during the PallmLaw rebrand.
+The app repo at `P:\Pallm Tech Local Dev\PallmLaw` is the product source of truth when capability claims are in question.
 
 Default operating assumption:
 
@@ -155,7 +155,7 @@ The website must stay aligned to shipped or credibly near-term PallmLaw capabili
 
 Default workflow before strategy or copy work:
 
-1. check `.agents/product/inbox/` for new handoffs
+1. check `.agents/product/inbox/` and `P:\Pallm Tech Local Dev\PallmLaw\.agents\marketing\handoffs\` for new handoffs
 2. review any unread or newly added product updates
 3. proactively summarize relevant changes for Adam
 4. only then proceed with messaging, content, or website recommendations

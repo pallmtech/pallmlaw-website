@@ -102,7 +102,7 @@ export default function EstatePlanningPage() {
               />
             </div>
             <div className="stack-card estate-explain-card">
-              <p className="section-tag">Why This Wedge Works</p>
+              <p className="section-tag">A Measurable Matter Lifecycle</p>
               <h2>Estate Planning has enough structure to become measurable.</h2>
               <p>
                 The biggest drag is usually not one dramatic failure. It is the

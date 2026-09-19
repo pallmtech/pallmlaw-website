@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Estate Planning Workflow Software & Firm Intelligence | PallmLaw",
     description:
-      "PallmLaw helps Estate Planning firms turn retained matters into a visible, enforced, measurable pipeline and identify stalled work and revenue risk.",
+      "PallmLaw helps Estate Planning firms turn retained matters into a visible, enforced, measurable pipeline and identify stalled work and broken handoffs.",
     url: siteUrl,
   },
 };
@@ -110,19 +110,19 @@ const salesProofs = [
 
 const roadmap = [
   {
-    phase: "Layer 1",
+    phase: "Track",
     title: "Visibility Across Every Matter",
     body:
       "Practice-area workflow, matter records, task ownership, notes, deadlines, scorecards, and stale-work visibility.",
   },
   {
-    phase: "Layer 2",
+    phase: "Automate",
     title: "Automated Workflows + Communication",
     body:
       "Matter-stage automation, deadline-aware tasks, wait steps, and firm-branded client communication that runs with the matter.",
   },
   {
-    phase: "Layer 3",
+    phase: "Connect",
     title: "AI Agent Connected",
     body:
       "Read-only AI connector access that exposes approved operational tools, records client and user activity, and does not permit AI record changes.",
@@ -246,11 +246,11 @@ export default function Home() {
               <h1>
                 Operations and Intelligence for Estate Planning Firms
               </h1>
-              <p className="hero-tagline">Track Automate Visualize</p>
+              <p className="hero-tagline">Track. Automate. Optimize.</p>
               <p className="lede">
                 PallmLaw turns retained matters into a visible, enforced,
                 measurable pipeline and gives owners real answers about where
-                work is stuck and revenue is at risk, without replacing the
+                work is stuck and handoffs are breaking down, without replacing the
                 tools the firm already uses.
               </p>
               <ul className="hero-feature-list">
@@ -259,7 +259,6 @@ export default function Home() {
                 <li>Automated Client Communication</li>
                 <li>Firm Intelligence</li>
                 <li>AI Agent Connected</li>
-                <li>More Coming Soon</li>
               </ul>
               <div className="hero-actions">
                 <ScheduleCallButton
@@ -337,12 +336,11 @@ export default function Home() {
         <section className="section sales-proof-band">
           <div className="container section-stack">
             <div className="section-head">
-              <p className="section-tag">Product Proof</p>
+              <p className="section-tag">Inside PallmLaw</p>
               <h2>The product shows how the operating and intelligence system works.</h2>
               <p>
-                Buyers should not have to imagine the workflow. These operating
-                surfaces show how PallmLaw tracks matters, automates work, and
-                keeps client communication connected to the matter lifecycle.
+                See how PallmLaw tracks matters, automates work, and keeps
+                client communication connected to the matter lifecycle.
               </p>
             </div>
 
