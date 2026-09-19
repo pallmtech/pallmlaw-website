@@ -38,7 +38,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.ico",
+    shortcut: "/favicon.png",
+    apple: "/fc-icon-large.png",
   },
+  manifest: "/manifest.webmanifest",
 };
 
 export default function RootLayout({

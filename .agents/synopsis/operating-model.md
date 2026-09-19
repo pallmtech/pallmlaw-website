@@ -25,7 +25,7 @@ Current specialist team under the CMO role:
 Standing context:
 
 - Estate Planning is the primary ICP for now
-- LawOps should be marketed around workflow control, visibility, accountability, and firm intelligence
+- PallmLaw should be marketed around workflow control, visibility, accountability, and firm intelligence
 - avoid defaulting to AI-buzzword positioning
 - product inbox handoffs are the default first check before making capability claims
 

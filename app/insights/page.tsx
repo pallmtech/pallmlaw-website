@@ -14,6 +14,11 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    href: "/insights/pallmlaw-v1-5-matter-operations-workflow-control",
+    title: "PallmLaw v1.5: matter operations and workflow control",
+    body: "A product update covering critical dates, matter-level automation visibility, communication history, operational ownership, and a more reliable dashboard.",
+  },
+  {
     href: "/insights/estate-planning-workflow-bottlenecks",
     title: "Where Estate Planning work slows down after retained",
     body: "The cost is not just delay. It is unclear ownership, missed handoffs, and matters sitting too long before the next step happens.",

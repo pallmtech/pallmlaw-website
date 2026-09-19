@@ -31,10 +31,15 @@ Urgent pains:
 
 Why Estate Planning first:
 
-- LawOps is most mature here today
+- PallmLaw is most mature here today
 - the workflow is structured and repeatable
 - the product already supports retained-rate and critical-date intelligence relevant to this practice
 - the buyer pain is concrete and measurable
+
+Adjacent delivered workflow support:
+
+- Probate, Probate Release, and Trust Administration are valid product capabilities
+- treat these as expansion and credibility signals, not a reason to broaden the primary ICP prematurely
 
 Disqualifiers:
 

@@ -26,11 +26,58 @@ const nonFitSignals = [
   "You need an immediate replacement for every legal system the firm uses",
 ];
 
+const conversationTopics = [
+  "How retained matters move through the firm today",
+  "Where ownership, deadlines, or client follow-up become unclear",
+  "Which systems PallmLaw would work alongside",
+  "Whether the firm's volume and workflow complexity justify implementation",
+];
+
+const frequentlyAskedQuestions = [
+  {
+    question: "Does PallmLaw replace our practice-management or drafting system?",
+    answer:
+      "No. PallmLaw is the workflow-control and firm-intelligence layer. It is designed to work alongside the firm's practice-management, drafting, and intake tools.",
+  },
+  {
+    question: "Which firms are the strongest fit?",
+    answer:
+      "The strongest fit is an Estate Planning firm with meaningful matter volume, repeatable work, multiple team handoffs, and an operational need for clearer ownership, deadline control, and leadership visibility.",
+  },
+  {
+    question: "Is PallmLaw an AI product?",
+    answer:
+      "AI is a governed access layer, not the primary product category. Approved AI clients can use scoped, read-only MCP tools. They cannot directly change firm records or send email through PallmLaw.",
+  },
+  {
+    question: "How is PallmLaw configured for a firm?",
+    answer:
+      "PallmLaw is configured around the firm's practice areas, matter subtypes, stages, critical dates, task templates, automation, and communication rules. The fit conversation determines whether that implementation model matches the firm's needs.",
+  },
+];
+
 export default function FitPage() {
+  const faqStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: frequentlyAskedQuestions.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  };
+
   return (
     <div className="site-shell">
       <SiteHeader current="fit" />
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+        />
         <section className="section fit-page-shell">
           <div className="container fit-page-layout">
             <div className="fit-intro">
@@ -61,6 +108,20 @@ export default function FitPage() {
                 </ul>
               </article>
             </div>
+            <div className="fit-panel">
+              <p className="comparison-label">What We Will Cover</p>
+              <h2>A working-session conversation, not a generic product demo.</h2>
+              <p>
+                We will map the operational problem first, then determine
+                whether PallmLaw is appropriate for the firm. You should leave
+                with a clear fit assessment even if the answer is no.
+              </p>
+              <ul className="detail-list">
+                {conversationTopics.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
             <div className="fit-panel fit-contact-panel">
               <h2>Book the conversation.</h2>
               <p>
@@ -76,6 +137,20 @@ export default function FitPage() {
                 <Link className="button button-secondary" href="/estate-planning">
                   See Estate Planning Page
                 </Link>
+              </div>
+            </div>
+            <div className="section-stack">
+              <div className="section-head compact">
+                <p className="section-tag">Common Questions</p>
+                <h2>What firms usually need to establish before moving forward.</h2>
+              </div>
+              <div className="pillar-grid">
+                {frequentlyAskedQuestions.map((item) => (
+                  <article className="pillar-card" key={item.question}>
+                    <h3>{item.question}</h3>
+                    <p>{item.answer}</p>
+                  </article>
+                ))}
               </div>
             </div>
           </div>

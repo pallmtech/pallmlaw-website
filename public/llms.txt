@@ -18,6 +18,7 @@ Commercial focus: Estate Planning firms in the United States
 - [Matter Tracking](https://pallmlaw.com/matter-tracking-software-estate-planning): Estate Planning matter tracking and workflow control
 - [AI Agent Connected](https://pallmlaw.com/ai-agent-connected): Governed, scoped, read-only access for approved AI tools
 - [Fit Conversation](https://pallmlaw.com/fit): Qualification criteria and contact path
+- [PallmLaw v1.5 Product Update](https://pallmlaw.com/insights/pallmlaw-v1-5-matter-operations-workflow-control): Shipped matter-operations and workflow-control capabilities
 
 ## Editorial resources
 
@@ -25,10 +26,23 @@ Commercial focus: Estate Planning firms in the United States
 - [Estate Planning Workflow Bottlenecks](https://pallmlaw.com/insights/estate-planning-workflow-bottlenecks)
 - [Why Most Legal Software Does Not Create Visibility](https://pallmlaw.com/insights/why-most-legal-software-does-not-create-visibility)
 - [How Estate Planning Firms Grow Without Losing Control](https://pallmlaw.com/insights/how-estate-planning-firms-grow-without-losing-control)
+- [PallmLaw v1.5: Matter Operations and Workflow Control](https://pallmlaw.com/insights/pallmlaw-v1-5-matter-operations-workflow-control)
+
+## Current shipped capabilities
+
+- Matter records connecting workflow, parties, tasks, notes, stages, critical dates, ownership, communication history, and activity
+- Configurable Estate Planning, Probate, Probate Release, and Trust Administration workflows
+- Critical-date operations connected across matters, calendars, reporting, workflows, and automation
+- Matter-level automation visibility and an administrative Automation Monitor
+- Firm-branded communication templates, workflow email actions, delivery records, and relevant matter communication history
+- Firm Intelligence for retained rate, cycle time, stalled matters, workload, and team context
+- Governed read-only REST API and MCP access with scopes, rate controls, and audit history
+- Dedicated application infrastructure and a dedicated PostgreSQL database for each firm
 
 ## Product boundaries
 
 - PallmLaw is not positioned as a generic AI product or a replacement for every legal system.
 - AI access is governed, read-only, scoped, audited, and user-attributed.
 - Estate Planning is the current commercial focus.
+- Workflow revision controls described as v1.6 are beta or release-candidate capabilities until production acceptance is recorded.
 - Product claims should be taken from the canonical PallmLaw pages above.

@@ -56,6 +56,12 @@ export default function WorkflowAutomationPage() {
                 <Link className="button button-secondary" href="/client-communication-automation">
                   See Client Communication
                 </Link>
+                <Link
+                  className="button button-secondary"
+                  href="/insights/pallmlaw-v1-5-matter-operations-workflow-control"
+                >
+                  Read The v1.5 Update
+                </Link>
               </div>
             </div>
           </div>
@@ -114,27 +120,27 @@ export default function WorkflowAutomationPage() {
             <div className="visual-column">
               <div className="frame">
                 <div className="frame-meta">
-                  <span>Node Editor</span>
-                  <span>Human-Readable Rules</span>
+                  <span>Matter Automation</span>
+                  <span>Upcoming Actions + Run History</span>
                 </div>
                 <Image
-                  src="/app-images/automation_flow_node_editor.png"
-                  alt="PallmLaw automation node editor"
-                  width={795}
-                  height={767}
+                  src="/app-images/pallmlaw_matter_automation_view.png"
+                  alt="PallmLaw matter automation view with upcoming actions and run history"
+                  width={833}
+                  height={823}
                   className="screenshot"
                 />
               </div>
               <div className="frame">
                 <div className="frame-meta">
-                  <span>Run History</span>
-                  <span>Traceability</span>
+                  <span>Automation Monitor</span>
+                  <span>Upcoming + Needs Attention</span>
                 </div>
                 <Image
-                  src="/app-images/automation_flow_runs_log.png"
-                  alt="PallmLaw automation flow runs log"
-                  width={876}
-                  height={886}
+                  src="/app-images/pallmlaw_automation_monitor.png"
+                  alt="PallmLaw automation monitor showing upcoming and attention-needed work"
+                  width={779}
+                  height={688}
                   className="screenshot"
                 />
               </div>

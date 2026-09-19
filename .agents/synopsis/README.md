@@ -1,6 +1,6 @@
 # Marketing Synopsis
 
-This folder holds durable marketing memory for LawOps.
+This folder holds durable marketing memory for PallmLaw.
 
 Use it for:
 

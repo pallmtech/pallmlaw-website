@@ -84,10 +84,10 @@ export default function ClientCommunicationAutomationPage() {
                   <span>Branded Message</span>
                 </div>
                 <Image
-                  src="/app-images/email_client_facing_email_preview.png"
+                  src="/app-images/pallmlaw_client_email_preview.png"
                   alt="Client-facing PallmLaw email preview"
-                  width={1824}
-                  height={896}
+                  width={1789}
+                  height={869}
                   className="screenshot"
                 />
               </div>

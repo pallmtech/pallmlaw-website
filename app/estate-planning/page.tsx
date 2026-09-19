@@ -70,6 +70,12 @@ export default function EstatePlanningPage() {
                   className="button button-primary"
                   label="Book Fit Conversation"
                 />
+                <Link
+                  className="button button-secondary"
+                  href="/insights/pallmlaw-v1-5-matter-operations-workflow-control"
+                >
+                  Read The v1.5 Update
+                </Link>
               </div>
             </div>
             <div className="estate-sequence-board">
@@ -94,10 +100,10 @@ export default function EstatePlanningPage() {
                 <span>Record Surface</span>
               </div>
               <Image
-                src="/app-images/matter_record_surface.png"
+                src="/app-images/pallmlaw_matter_record.png"
                 alt="Matter record surface"
-                width={1025}
-                height={792}
+                width={848}
+                height={825}
                 className="screenshot"
               />
             </div>
@@ -140,29 +146,29 @@ export default function EstatePlanningPage() {
                   <span>Email Preview</span>
                 </div>
                 <Image
-                  src="/app-images/email_client_facing_email_preview.png"
+                  src="/app-images/pallmlaw_client_email_preview.png"
                   alt="Client-facing email preview"
-                  width={1824}
-                  height={896}
+                  width={1789}
+                  height={869}
                   className="screenshot"
                 />
               </div>
               <div className="mini-visual-grid">
                 <div className="frame mini">
                   <Image
-                    src="/app-images/automation_flow_node_editor.png"
-                    alt="Automation flow node editor"
-                    width={795}
-                    height={767}
+                    src="/app-images/pallmlaw_critical_dates_calendar.png"
+                    alt="PallmLaw Critical Dates Calendar"
+                    width={493}
+                    height={644}
                     className="screenshot"
                   />
                 </div>
                 <div className="frame mini">
                   <Image
-                    src="/app-images/automation_flow_runs_log.png"
-                    alt="Automation flow runs log"
-                    width={876}
-                    height={886}
+                    src="/app-images/pallmlaw_matter_automation_view.png"
+                    alt="PallmLaw matter automation view"
+                    width={833}
+                    height={823}
                     className="screenshot"
                   />
                 </div>

@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/platform",
     "/intelligence",
     "/insights",
+    "/insights/pallmlaw-v1-5-matter-operations-workflow-control",
     "/insights/estate-planning-workflow-bottlenecks",
     "/insights/why-most-legal-software-does-not-create-visibility",
     "/insights/how-estate-planning-firms-grow-without-losing-control",

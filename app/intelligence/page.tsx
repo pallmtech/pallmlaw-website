@@ -62,10 +62,10 @@ export default function IntelligencePage() {
                 <span>Owner View</span>
               </div>
               <Image
-                src="/app-images/firm_intelligence.png"
+                src="/app-images/pallmlaw_firm_intelligence.png"
                 alt="Firm intelligence"
-                width={1600}
-                height={1038}
+                width={1864}
+                height={844}
                 className="screenshot"
               />
             </div>
@@ -125,10 +125,10 @@ export default function IntelligencePage() {
                 <span>Cycle Time</span>
               </div>
               <Image
-                src="/app-images/KPI_measurement.png"
-                alt="Critical date KPI measurements"
-                width={583}
-                height={439}
+                src="/app-images/pallmlaw_critical_dates_calendar.png"
+                alt="PallmLaw Critical Dates Calendar"
+                width={493}
+                height={644}
                 className="screenshot"
               />
             </div>

@@ -2,8 +2,9 @@
 
 Category framing:
 
-- PallmLaw, formerly LawOps, is the operating and intelligence system for Estate Planning firms
-- public buyer-facing copy must stay scoped to Estate Planning firms
+- PallmLaw, formerly LawOps, is a dedicated operating system for legal workflow and matter operations
+- Estate Planning remains the primary commercial wedge and should lead acquisition-focused buyer copy
+- configured Probate, Probate Release, and Trust Administration workflows are delivered product facts, but should not displace Estate Planning as the clearest market entry point
 - reflective founder context may describe the longer-term law-firm vision only in clearly future-tense language
 - it should not be framed as a generic case management platform
 
@@ -19,11 +20,14 @@ Primary differentiators:
 - PallmLaw supports configurable workflow automation around legal matter execution, including matter-stage automation, deadline-aware task automation, conditional logic, wait steps, and run traceability
 - PallmLaw supports firm-controlled client communication through client-facing email templates, branded copy, workflow-triggered messages, matter-aware reminders, and communication history
 - Notes are a primary operational surface, not just incidental record comments
+- critical dates are first-class operational records connected to matters, calendars, workflows, reporting, and automation
+- matter-level Automation and the firm-level Automation Monitor make upcoming and attention-needed automation visible
 - approved AI tools can connect to scoped, read-only operational surfaces with user-attributed auditability
 - firm intelligence surfaces operational truth, not just record storage
 - Matters and Tasks are the two core structured objects; retention by subtype, stage-to-stage cycle time, stalled retained matters, and team performance are derived from disciplined operational data
 - the practice-area engine can configure stages, critical dates, and task templates independently by matter subtype; this is architectural breadth, while Estate Planning remains the current commercial focus
 - PallmLaw is designed as firm-owned infrastructure, not rented generic SaaS
+- each firm operates on dedicated application infrastructure and a dedicated PostgreSQL database
 - the system is configurable to the firm's workflow instead of forcing the firm into a template
 
 Messaging pillars:
@@ -63,6 +67,8 @@ Phrases to favor:
 - governed MCP tools
 - operational intelligence for approved AI assistants
 - own your operational infrastructure
+- dedicated firm infrastructure
+- governed operational access
 
 Phrases to avoid:
 

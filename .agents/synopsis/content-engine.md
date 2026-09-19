@@ -27,3 +27,8 @@ Preferred content formats:
 Repurposing rule:
 
 - one blog post should yield multiple social posts, one email angle, and one sales-call talking point
+
+Current launch anchor:
+
+- the PallmLaw v1.5 product update is the source asset for the matter-operations launch cycle
+- lead distribution with critical-date control, automation visibility, and operational ownership rather than a generic release announcement

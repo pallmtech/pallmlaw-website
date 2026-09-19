@@ -59,10 +59,10 @@ const salesProofs = [
       "Stale work and bottleneck detection",
       "Owner-level intelligence from live operational data",
     ],
-    image: "/app-images/matter_record_surface.png",
+    image: "/app-images/pallmlaw_matter_record.png",
     alt: "Estate Planning matter record in PallmLaw",
-    width: 1025,
-    height: 792,
+    width: 848,
+    height: 825,
     metaLeft: "Matter Record",
     metaRight: "Context + Tasks + Notes",
     href: "/matter-tracking-software-estate-planning",
@@ -78,12 +78,12 @@ const salesProofs = [
       "Conditional workflow logic built around legal work",
       "Run history and error visibility for operational control",
     ],
-    image: "/app-images/automation_flow_canvas.png",
-    alt: "Workflow automation flow in PallmLaw",
-    width: 1673,
-    height: 608,
-    metaLeft: "Automation Flow",
-    metaRight: "Matter Lifecycle Rules",
+    image: "/app-images/pallmlaw_matter_automation_view.png",
+    alt: "Matter-level automation activity and upcoming workflow actions in PallmLaw",
+    width: 833,
+    height: 823,
+    metaLeft: "Matter Automation",
+    metaRight: "Upcoming Actions + Run History",
     href: "/workflow-automation",
     cta: "See Workflow Automation",
   },
@@ -97,10 +97,10 @@ const salesProofs = [
       "Stage-aware updates and matter-aware reminders",
       "Delivery and communication event traceability",
     ],
-    image: "/app-images/email_client_facing_email_preview.png",
+    image: "/app-images/pallmlaw_client_email_preview.png",
     alt: "Client-facing email preview in PallmLaw",
-    width: 1824,
-    height: 896,
+    width: 1789,
+    height: 869,
     metaLeft: "Client Communication",
     metaRight: "Preview + Send Control",
     href: "/client-communication-automation",
@@ -168,6 +168,10 @@ const seoPages = [
 ];
 
 const insightArticles = [
+  {
+    href: "/insights/pallmlaw-v1-5-matter-operations-workflow-control",
+    title: "PallmLaw v1.5: matter operations and workflow control",
+  },
   {
     href: "/insights/estate-planning-workflow-bottlenecks",
     title: "Why Estate Planning firms lose time between retained and drafting",
@@ -280,8 +284,8 @@ export default function Home() {
                 <Image
                   src="/app-images/main_dashboard_with_new_notes_menu_item.png"
                   alt="PallmLaw dashboard with notes navigation"
-                  width={956}
-                  height={453}
+                  width={1742}
+                  height={903}
                   className="screenshot"
                   priority
                 />
@@ -325,8 +329,8 @@ export default function Home() {
               <Image
                 src="/app-images/track_automate_optimize_triptych.png"
                 alt="Track Automate Optimize PallmLaw operating system graphic"
-                width={1376}
-                height={768}
+                width={1679}
+                height={937}
                 className="screenshot"
               />
             </div>
@@ -418,10 +422,10 @@ export default function Home() {
                   <span>Operational Truth</span>
                 </div>
                 <Image
-                  src="/app-images/matter_record_surface.png"
+                  src="/app-images/pallmlaw_matter_record.png"
                   alt="Matter record surface"
-                  width={1025}
-                  height={792}
+                  width={848}
+                  height={825}
                   className="screenshot"
                 />
               </div>
@@ -596,8 +600,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* TESTIMONIAL PLACEHOLDER: pending Pierce Legal Group written permission, do not populate without explicit approved language from Adam */}
-
         <section className="section surface-plain">
           <div className="container section-stack">
             <div className="section-head">

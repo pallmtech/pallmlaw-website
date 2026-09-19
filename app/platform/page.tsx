@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 
@@ -45,6 +46,21 @@ const layers = [
   },
 ];
 
+const trustPoints = [
+  {
+    title: "Dedicated firm infrastructure",
+    body: "Each firm operates on dedicated application infrastructure and a dedicated PostgreSQL database rather than a shared product-data database.",
+  },
+  {
+    title: "Governed operational access",
+    body: "Firm-controlled administration, scoped read-only API and MCP access, rate controls, and durable audit history keep access bounded and attributable.",
+  },
+  {
+    title: "Designed to work alongside the legal stack",
+    body: "PallmLaw provides the workflow-control and intelligence layer without requiring the firm to replace every practice-management, drafting, or intake system.",
+  },
+];
+
 export default function PlatformPage() {
   return (
     <div className="site-shell">
@@ -69,6 +85,14 @@ export default function PlatformPage() {
                 leadership needs. It works alongside the firm's existing
                 practice management, drafting, and intake tools.
               </p>
+              <div className="inline-cta-row">
+                <Link
+                  className="button button-secondary"
+                  href="/insights/pallmlaw-v1-5-matter-operations-workflow-control"
+                >
+                  Read The v1.5 Update
+                </Link>
+              </div>
             </div>
           </div>
         </section>
@@ -77,14 +101,14 @@ export default function PlatformPage() {
           <div className="container platform-map-layout">
             <div className="frame">
               <div className="frame-meta">
-                <span>Automation Flow</span>
-                <span>Workflow to Email</span>
+                <span>Automation Monitor</span>
+                <span>Upcoming + Needs Attention</span>
               </div>
               <Image
-                src="/app-images/automation_flow_canvas.png"
-                alt="Automation flow canvas"
-                width={1673}
-                height={608}
+                src="/app-images/pallmlaw_automation_monitor.png"
+                alt="PallmLaw automation monitor showing upcoming and attention-needed work"
+                width={779}
+                height={688}
                 className="screenshot"
               />
             </div>
@@ -96,6 +120,28 @@ export default function PlatformPage() {
                     <h3>{layer.title}</h3>
                     <p>{layer.body}</p>
                   </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="section home-manifesto">
+          <div className="container section-stack">
+            <div className="section-head">
+              <p className="section-tag">Implementation And Control</p>
+              <h2>Operational infrastructure the firm can govern.</h2>
+              <p>
+                PallmLaw is implemented around the firm&apos;s actual workflow and
+                operates as a controlled layer alongside the systems already in
+                use.
+              </p>
+            </div>
+            <div className="pillar-grid">
+              {trustPoints.map((point) => (
+                <article className="pillar-card" key={point.title}>
+                  <h3>{point.title}</h3>
+                  <p>{point.body}</p>
                 </article>
               ))}
             </div>
@@ -123,10 +169,10 @@ export default function PlatformPage() {
                 <span>Brand Controls</span>
               </div>
               <Image
-                src="/app-images/firm_brand_control_admin.png"
+                src="/app-images/firm_settings_admin.png"
                 alt="Firm brand control admin"
-                width={1426}
-                height={749}
+                width={1449}
+                height={848}
                 className="screenshot"
               />
             </div>
