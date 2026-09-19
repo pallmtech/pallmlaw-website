@@ -8,7 +8,7 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "Workflow Automation for Estate Planning Firms",
   description:
-    "PallmLaw automates Estate Planning matter stages, tasks, deadlines, handoffs, waits, and client communication while producing structured data for firm intelligence.",
+    "PallmLaw automates Estate Planning, Probate, and Trust Administration stages, tasks, deadlines, handoffs, waits, and client communication.",
   alternates: {
     canonical: "/workflow-automation",
   },
@@ -41,7 +41,7 @@ export default function WorkflowAutomationPage() {
               <p className="section-tag">Workflow Automation</p>
               <h1 className="page-title">Turn your firm's process into a repeatable system.</h1>
               <p>
-                PallmLaw gives Estate Planning firms a configurable workflow engine
+                PallmLaw gives trusts and estates firms a configurable workflow engine
                 built around how legal work actually moves: matters, stages,
                 tasks, deadlines, notes, parties, client status, and
                 practice-area-specific processes. Completed work also feeds the

@@ -5,9 +5,9 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Estate Planning Workflow Automation and Intelligence",
+  title: "Trusts and Estates Workflow Automation and Intelligence",
   description:
-    "PallmLaw gives Estate Planning firms workflow automation and intelligence across retained matters, critical dates, tasks, client communication, and performance.",
+    "PallmLaw gives trusts and estates firms workflow automation and intelligence across matters, critical dates, tasks, client communication, and performance.",
   alternates: {
     canonical: "/legal-workflow-software",
   },
@@ -32,11 +32,11 @@ export default function LegalWorkflowSoftwarePage() {
             <div className="fit-intro">
               <p className="section-tag">Legal Workflow Software</p>
               <h1 className="page-title">
-                Track, automate, and optimize Estate Planning workflow.
+                Track, automate, and optimize trusts and estates workflow.
               </h1>
               <p>
                 Most legal software stores information. PallmLaw gives Estate
-                Planning firms an operating and intelligence system for moving work: matter
+                Planning, Probate, and Trust Administration firms an operating and intelligence system for moving work: matter
                 visibility, workflow rules built around legal execution,
                 automated client communication, firm intelligence, and connected
                 AI visibility.
@@ -52,7 +52,7 @@ export default function LegalWorkflowSoftwarePage() {
             </div>
 
             <div className="fit-panel fit-contact-panel">
-              <h2>Start with Estate Planning, where workflow can be measured and improved.</h2>
+              <h2>Start with the practice-area workflow the firm needs to control.</h2>
               <p>
                 Retained, drafting, signing, and binder work create repeatable
                 stages, handoffs, deadlines, reminders, and communication

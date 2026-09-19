@@ -3,14 +3,15 @@
 Category framing:
 
 - PallmLaw, formerly LawOps, is a dedicated operating system for legal workflow and matter operations
-- Estate Planning remains the primary commercial wedge and should lead acquisition-focused buyer copy
-- configured Probate, Probate Release, and Trust Administration workflows are delivered product facts, but should not displace Estate Planning as the clearest market entry point
+- Estate Planning, Probate, and Trust Administration are active commercial segments under the trusts-and-estates umbrella
+- use separate acquisition pages for Estate Planning, Probate workflow automation, Probate matter management, and Trust Administration workflow
+- Probate and Trust Administration should be presented as delivered product capabilities, not roadmap breadth
 - reflective founder context may describe the longer-term law-firm vision only in clearly future-tense language
 - it should not be framed as a generic case management platform
 
 Core promise:
 
-- help Estate Planning firms handle more matters with the team they already have
+- help trusts and estates firms handle more matters with the team they already have
 - turn retained matters into a visible, enforced, measurable pipeline
 - give owners answers about stalled work, cycle time, retention, workload, and team reliability without replacing existing practice management, drafting, or intake tools
 

@@ -5,6 +5,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     "",
     "/estate-planning",
+    "/probate-workflow-automation",
+    "/probate-case-management-software",
+    "/trust-administration-workflow-software",
     "/estate-planning-software",
     "/estate-planning-software-florida",
     "/client-communication-automation",
@@ -13,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/legal-workflow-software",
     "/matter-tracking-software-estate-planning",
     "/platform",
+    "/dedicated-firm-infrastructure",
     "/intelligence",
     "/insights",
     "/insights/pallmlaw-v1-5-matter-operations-workflow-control",

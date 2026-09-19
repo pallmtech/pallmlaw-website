@@ -1,17 +1,21 @@
 # PallmLaw
 
-> PallmLaw is workflow and firm-intelligence software for Estate Planning firms. It helps firms track retained matters, automate matter workflows and client communication, identify stalled work, and measure operational performance.
+> PallmLaw is workflow and firm-intelligence software for trusts and estates law firms. It helps firms control Estate Planning, Probate, and Trust Administration matters, automate workflows and client communication, identify stalled work, and measure operational performance.
 
 Canonical website: https://pallmlaw.com
 Former name: LawOps
 Owner and operator: Pallm Tech LLC
-Commercial focus: Estate Planning firms in the United States
+Commercial focus: Estate Planning, Probate, and Trust Administration law firms in the United States
 
 ## Primary pages
 
 - [Homepage](https://pallmlaw.com/): Product overview and positioning
 - [Platform](https://pallmlaw.com/platform): Platform architecture and operating model
+- [Dedicated Firm Infrastructure](https://pallmlaw.com/dedicated-firm-infrastructure): Dedicated application and database posture, administration, audit history, and governed access
 - [Estate Planning](https://pallmlaw.com/estate-planning): Estate Planning workflow use case
+- [Probate Workflow Automation](https://pallmlaw.com/probate-workflow-automation): Probate stage, deadline, task, handoff, and communication automation
+- [Probate Case Management](https://pallmlaw.com/probate-case-management-software): Probate matter visibility, ownership, deadlines, workload, and operational reporting
+- [Trust Administration Workflow](https://pallmlaw.com/trust-administration-workflow-software): Trust Administration workflow control for law firms
 - [Workflow Automation](https://pallmlaw.com/workflow-automation): Matter-stage, task, deadline, wait, and handoff automation
 - [Client Communication](https://pallmlaw.com/client-communication-automation): Firm-controlled, workflow-triggered client communication
 - [Firm Intelligence](https://pallmlaw.com/intelligence): Retention, cycle-time, workload, stalled-matter, and team-performance visibility
@@ -43,6 +47,6 @@ Commercial focus: Estate Planning firms in the United States
 
 - PallmLaw is not positioned as a generic AI product or a replacement for every legal system.
 - AI access is governed, read-only, scoped, audited, and user-attributed.
-- Estate Planning is the current commercial focus.
+- Estate Planning, Probate, and Trust Administration are active commercial segments.
 - Workflow revision controls described as v1.6 are beta or release-candidate capabilities until production acceptance is recorded.
 - Product claims should be taken from the canonical PallmLaw pages above.

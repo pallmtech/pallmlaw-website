@@ -2,7 +2,7 @@
 
 Content goals:
 
-- educate Estate Planning firms on operational maturity
+- educate trusts and estates firms on operational maturity across Estate Planning, Probate, and Trust Administration
 - expose hidden workflow drag
 - build founder authority
 - create assets that feed website, social, outbound, and sales calls

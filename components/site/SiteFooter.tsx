@@ -17,8 +17,8 @@ export default function SiteFooter() {
               height={58}
             />
             <p>
-              PallmLaw is the operating and intelligence system for Estate
-              Planning firms: visible matters, enforced workflows, automated
+              PallmLaw is the operating and intelligence system for trusts and
+              estates firms: visible matters, enforced workflows, automated
               client communication, and answers owners can act on.
             </p>
             <p className="footer-owner">Built and operated by Pallm Tech LLC.</p>
@@ -32,6 +32,10 @@ export default function SiteFooter() {
               <Link href="/client-communication-automation">Client Communication</Link>
               <Link href="/ai-agent-connected">AI Agent Connected</Link>
               <Link href="/estate-planning">Estate Planning</Link>
+              <Link href="/probate-workflow-automation">Probate Automation</Link>
+              <Link href="/probate-case-management-software">Probate Management</Link>
+              <Link href="/trust-administration-workflow-software">Trust Administration</Link>
+              <Link href="/dedicated-firm-infrastructure">Dedicated Infrastructure</Link>
               <Link href="/estate-planning-software">Estate Planning Software</Link>
               <Link href="/insights">Insights</Link>
             </div>

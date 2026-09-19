@@ -8,7 +8,7 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "Client Communication Automation for Estate Planning Firms",
   description:
-    "PallmLaw helps Estate Planning firms automate firm-branded, stage-aware client communication with controlled templates, workflow triggers, and communication traceability.",
+    "PallmLaw helps trusts and estates firms automate firm-branded, stage-aware client communication with controlled templates, workflow triggers, and communication traceability.",
   alternates: {
     canonical: "/client-communication-automation",
   },
@@ -49,7 +49,7 @@ export default function ClientCommunicationAutomationPage() {
               <h1 className="page-title">Client communication that runs with the matter.</h1>
               <p>
                 PallmLaw turns client communication from a manual follow-up burden
-                into a structured, firm-controlled system. Estate Planning firms
+                into a structured, firm-controlled system. Trusts and estates firms
                 can standardize what clients receive, when they receive it, and
                 why, while keeping the tone personal and firm-branded.
               </p>
@@ -122,7 +122,7 @@ export default function ClientCommunicationAutomationPage() {
               <h2>Every client should know what happens next.</h2>
               <p>
                 Staff should not need spreadsheets, memory, and one-off emails
-                to keep clients informed. PallmLaw helps Estate Planning firms
+                to keep clients informed. PallmLaw helps trusts and estates firms
                 create a consistent client experience while communication
                 history remains part of the same operational record.
               </p>

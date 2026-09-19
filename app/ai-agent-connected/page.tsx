@@ -103,6 +103,9 @@ export default function AiAgentConnectedPage() {
                 <Link className="button button-secondary" href="/intelligence">
                   See Firm Intelligence
                 </Link>
+                <Link className="button button-secondary" href="/dedicated-firm-infrastructure">
+                  See Infrastructure And Governance
+                </Link>
               </div>
             </div>
           </div>

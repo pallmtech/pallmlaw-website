@@ -3,7 +3,7 @@ import Image from "next/image";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 type SiteHeaderProps = {
-  current?: "home" | "platform" | "intelligence" | "estate-planning" | "fit" | "insights";
+  current?: "home" | "platform" | "intelligence" | "estate-planning" | "probate" | "trust-administration" | "fit" | "insights";
 };
 
 const productLinks = [
@@ -32,11 +32,34 @@ const productLinks = [
     label: "Firm Intelligence",
     description: "Bottlenecks, workload, performance",
   },
+  {
+    href: "/dedicated-firm-infrastructure",
+    label: "Dedicated Infrastructure",
+    description: "Firm separation, governance, and access",
+  },
 ];
 
-const primaryLinks = [
-  { href: "/estate-planning", label: "Estate Planning", key: "estate-planning" },
-  { href: "/insights", label: "Insights", key: "insights" },
+const practiceAreaLinks = [
+  {
+    href: "/estate-planning",
+    label: "Estate Planning",
+    description: "Retained-to-completion workflow control",
+  },
+  {
+    href: "/probate-workflow-automation",
+    label: "Probate Automation",
+    description: "Stage, deadline, task, and handoff automation",
+  },
+  {
+    href: "/probate-case-management-software",
+    label: "Probate Management",
+    description: "Matter visibility, ownership, and workload",
+  },
+  {
+    href: "/trust-administration-workflow-software",
+    label: "Trust Administration",
+    description: "Repeatable administration workflow and visibility",
+  },
 ];
 
 export default function SiteHeader({ current }: SiteHeaderProps) {
@@ -67,15 +90,31 @@ export default function SiteHeader({ current }: SiteHeaderProps) {
             </div>
           </details>
 
-          {primaryLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={current === link.key ? "nav-active" : undefined}
+          <details className="nav-dropdown">
+            <summary
+              className={
+                current === "estate-planning" ||
+                current === "probate" ||
+                current === "trust-administration"
+                  ? "nav-active"
+                  : undefined
+              }
             >
-              {link.label}
-            </Link>
-          ))}
+              Practice Areas
+            </summary>
+            <div className="nav-dropdown-panel">
+              {practiceAreaLinks.map((link) => (
+                <Link className="nav-dropdown-link" key={link.href} href={link.href}>
+                  <span>{link.label}</span>
+                  <small>{link.description}</small>
+                </Link>
+              ))}
+            </div>
+          </details>
+
+          <Link href="/insights" className={current === "insights" ? "nav-active" : undefined}>
+            Insights
+          </Link>
         </nav>
         <ScheduleCallButton className="cta-chip" label="Book Fit Conversation" />
       </div>

@@ -5,9 +5,9 @@ import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Legal Operations Platform for Estate Planning Firms",
+  title: "Legal Operations Platform for Trusts and Estates Firms",
   description:
-    "See the PallmLaw operating and intelligence system for Estate Planning firms, built on configurable workflows and intelligence derived from Matters and Tasks.",
+    "See the PallmLaw operating and intelligence system for Estate Planning, Probate, and Trust Administration firms.",
   alternates: {
     canonical: "/platform",
   },
@@ -77,7 +77,7 @@ export default function PlatformPage() {
             </div>
             <div className="section-head compact">
               <p className="section-tag">Platform</p>
-              <h1 className="page-title">One operating and intelligence system for Estate Planning delivery.</h1>
+              <h1 className="page-title">One operating and intelligence system for trusts and estates delivery.</h1>
               <p>
                 PallmLaw combines execution and intelligence in the same model:
                 Matters move through configured stages, critical dates, and
@@ -144,6 +144,24 @@ export default function PlatformPage() {
                   <p>{point.body}</p>
                 </article>
               ))}
+            </div>
+            <div className="frame brand-collateral-frame">
+              <div className="frame-meta">
+                <span>Dedicated Firm Infrastructure</span>
+                <span>Governed Operational Access</span>
+              </div>
+              <Image
+                src="/app-images/pallmlaw_dedicated_firm_infrastructure.png"
+                alt="PallmLaw dedicated firm infrastructure with governed application, database, administration, audit, and read-only AI access"
+                width={1672}
+                height={941}
+                className="screenshot"
+              />
+            </div>
+            <div className="inline-cta-row">
+              <Link className="button button-secondary" href="/dedicated-firm-infrastructure">
+                Explore Dedicated Infrastructure
+              </Link>
             </div>
           </div>
         </section>

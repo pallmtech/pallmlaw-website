@@ -2,7 +2,8 @@
 
 Primary ICP:
 
-- Estate Planning law firms in the United States
+- trusts and estates law firms in the United States
+- active acquisition segments include Estate Planning, Probate, and Trust Administration
 - roughly 3 to 25 staff members
 - firms with enough volume to feel operational drag
 - founder-led or admin-led firms frustrated by workflow inconsistency
@@ -29,17 +30,12 @@ Urgent pains:
 - weak accountability across team members
 - no reliable timing data across Estate Planning delivery stages
 
-Why Estate Planning first:
+Practice-area posture:
 
-- PallmLaw is most mature here today
-- the workflow is structured and repeatable
-- the product already supports retained-rate and critical-date intelligence relevant to this practice
-- the buyer pain is concrete and measurable
-
-Adjacent delivered workflow support:
-
-- Probate, Probate Release, and Trust Administration are valid product capabilities
-- treat these as expansion and credibility signals, not a reason to broaden the primary ICP prematurely
+- Estate Planning remains a mature and specific acquisition path
+- Probate workflow automation and Probate matter management are independent search and buyer intents
+- Trust Administration workflow is an active acquisition path, distinct from trust accounting or asset management
+- all three share structured, repeatable work, critical dates, handoffs, communication, and operational visibility needs
 
 Disqualifiers:
 

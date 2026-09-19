@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "PallmLaw",
     short_name: "PallmLaw",
     description:
-      "Workflow and firm-intelligence software for Estate Planning firms.",
+      "Workflow and firm-intelligence software for trusts and estates firms.",
     start_url: "/",
     display: "standalone",
     background_color: "#f8f5ed",

@@ -7,14 +7,14 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "Book a Fit Conversation",
   description:
-    "Book a fit conversation to see whether PallmLaw is a strong match for your Estate Planning firm's workflow, visibility, and growth needs.",
+    "Book a fit conversation to see whether PallmLaw fits your Estate Planning, Probate, or Trust Administration workflow and visibility needs.",
   alternates: {
     canonical: "/fit",
   },
 };
 
 const fitSignals = [
-  "You run an Estate Planning workflow with multiple handoffs",
+  "You run Estate Planning, Probate, or Trust Administration workflows with multiple handoffs",
   "Leadership lacks clean visibility into open work and bottlenecks",
   "Critical dates and status updates still depend too much on memory",
   "You want workflow control, communication consistency, and firm intelligence",
@@ -84,8 +84,8 @@ export default function FitPage() {
               <p className="section-tag">Fit Conversation</p>
               <h1 className="page-title">Let's find out if PallmLaw is a fit.</h1>
               <p>
-                PallmLaw is the operating and intelligence system for Estate
-                Planning firms that need clearer matter visibility, repeatable
+                PallmLaw is the operating and intelligence system for trusts
+                and estates firms that need clearer matter visibility, repeatable
                 workflows, automated client follow-up, and leadership-level
                 answers before adding more headcount.
               </p>

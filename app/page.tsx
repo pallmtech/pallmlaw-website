@@ -7,16 +7,16 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 import { siteName, siteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Estate Planning Workflow Software & Firm Intelligence | PallmLaw",
+  title: "Trusts & Estates Workflow Software & Firm Intelligence | PallmLaw",
   description:
-    "PallmLaw helps Estate Planning firms track matters, automate workflows and client communication, identify bottlenecks, and improve operational visibility.",
+    "PallmLaw helps Estate Planning, Probate, and Trust Administration firms track matters, automate workflows and client communication, and improve operational visibility.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Estate Planning Workflow Software & Firm Intelligence | PallmLaw",
+    title: "Trusts & Estates Workflow Software & Firm Intelligence | PallmLaw",
     description:
-      "PallmLaw helps Estate Planning firms turn retained matters into a visible, enforced, measurable pipeline and identify stalled work and broken handoffs.",
+      "PallmLaw helps trusts and estates firms turn matters into visible, enforced, measurable workflows and identify stalled work and broken handoffs.",
     url: siteUrl,
   },
 };
@@ -131,6 +131,21 @@ const roadmap = [
 
 const seoPages = [
   {
+    href: "/probate-workflow-automation",
+    title: "Automate Probate Workflow",
+    body: "Connect probate stages, critical dates, tasks, handoffs, reminders, and communication in a controlled workflow.",
+  },
+  {
+    href: "/probate-case-management-software",
+    title: "Manage Probate Matters",
+    body: "See matter status, ownership, deadlines, open work, workload, and matters requiring attention.",
+  },
+  {
+    href: "/trust-administration-workflow-software",
+    title: "Control Trust Administration",
+    body: "Give recurring administration work a visible path across stages, dates, tasks, ownership, and communication.",
+  },
+  {
     href: "/client-communication-automation",
     title: "Automate Client Communication",
     body: "Firm-branded, stage-aware messages keep clients informed without manual follow-up spreadsheets.",
@@ -225,11 +240,11 @@ export default function Home() {
         },
         audience: {
           "@type": "Audience",
-          audienceType: "Estate Planning firms",
+          audienceType: "Estate Planning, Probate, and Trust Administration law firms",
         },
         areaServed: ["Florida", "United States"],
         description:
-          "PallmLaw is the operating and intelligence system for Estate Planning firms, combining matter visibility, workflow automation, client communication, and firm intelligence.",
+          "PallmLaw is the operating and intelligence system for trusts and estates firms, combining matter visibility, workflow automation, client communication, and firm intelligence.",
       },
     ],
   };
@@ -246,13 +261,14 @@ export default function Home() {
         <section className="hero-band hero-wide">
           <div className="container hero-split">
             <div className="hero-wide-copy">
-              <p className="eyebrow">Estate Planning Operations + Intelligence</p>
+              <p className="eyebrow">Trusts &amp; Estates Operations + Intelligence</p>
               <h1>
-                Operations and Intelligence for Estate Planning Firms
+                Operations and Intelligence for Trusts and Estates Firms
               </h1>
               <p className="hero-tagline">Track. Automate. Optimize.</p>
               <p className="lede">
-                PallmLaw turns retained matters into a visible, enforced,
+                PallmLaw turns Estate Planning, Probate, and Trust
+                Administration matters into visible, enforced,
                 measurable pipeline and gives owners real answers about where
                 work is stuck and handoffs are breaking down, without replacing the
                 tools the firm already uses.
