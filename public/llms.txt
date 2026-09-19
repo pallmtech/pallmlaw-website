@@ -1,0 +1,34 @@
+# PallmLaw
+
+> PallmLaw is workflow and firm-intelligence software for Estate Planning firms. It helps firms track retained matters, automate matter workflows and client communication, identify stalled work, and measure operational performance.
+
+Canonical website: https://pallmlaw.com
+Former name: LawOps
+Owner and operator: Pallm Tech LLC
+Commercial focus: Estate Planning firms in the United States
+
+## Primary pages
+
+- [Homepage](https://pallmlaw.com/): Product overview and positioning
+- [Platform](https://pallmlaw.com/platform): Platform architecture and operating model
+- [Estate Planning](https://pallmlaw.com/estate-planning): Estate Planning workflow use case
+- [Workflow Automation](https://pallmlaw.com/workflow-automation): Matter-stage, task, deadline, wait, and handoff automation
+- [Client Communication](https://pallmlaw.com/client-communication-automation): Firm-controlled, workflow-triggered client communication
+- [Firm Intelligence](https://pallmlaw.com/intelligence): Retention, cycle-time, workload, stalled-matter, and team-performance visibility
+- [Matter Tracking](https://pallmlaw.com/matter-tracking-software-estate-planning): Estate Planning matter tracking and workflow control
+- [AI Agent Connected](https://pallmlaw.com/ai-agent-connected): Governed, scoped, read-only access for approved AI tools
+- [Fit Conversation](https://pallmlaw.com/fit): Qualification criteria and contact path
+
+## Editorial resources
+
+- [Insights](https://pallmlaw.com/insights): Estate Planning operations and workflow guidance
+- [Estate Planning Workflow Bottlenecks](https://pallmlaw.com/insights/estate-planning-workflow-bottlenecks)
+- [Why Most Legal Software Does Not Create Visibility](https://pallmlaw.com/insights/why-most-legal-software-does-not-create-visibility)
+- [How Estate Planning Firms Grow Without Losing Control](https://pallmlaw.com/insights/how-estate-planning-firms-grow-without-losing-control)
+
+## Product boundaries
+
+- PallmLaw is not positioned as a generic AI product or a replacement for every legal system.
+- AI access is governed, read-only, scoped, audited, and user-attributed.
+- Estate Planning is the current commercial focus.
+- Product claims should be taken from the canonical PallmLaw pages above.
