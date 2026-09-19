@@ -2,7 +2,7 @@
 
 Purpose:
 
-- turn LawOps positioning into pages that convert qualified firms into conversations
+- turn PallmLaw positioning into pages that convert qualified firms into conversations
 
 Owns:
 
@@ -23,4 +23,4 @@ Stop conditions:
 
 - the page reads like a product spec instead of a sales conversation
 - the CTA asks for commitment before fit is established
-- the user cannot quickly understand who LawOps is for and why it is different
+- the user cannot quickly understand who PallmLaw is for and why it is different

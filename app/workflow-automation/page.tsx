@@ -8,7 +8,7 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "Workflow Automation for Estate Planning Firms",
   description:
-    "LawOps automates Estate Planning matter stages, tasks, deadlines, handoffs, waits, and client communication while producing structured data for firm intelligence.",
+    "PallmLaw automates Estate Planning matter stages, tasks, deadlines, handoffs, waits, and client communication while producing structured data for firm intelligence.",
   alternates: {
     canonical: "/workflow-automation",
   },
@@ -41,7 +41,7 @@ export default function WorkflowAutomationPage() {
               <p className="section-tag">Workflow Automation</p>
               <h1 className="page-title">Turn your firm's process into a repeatable system.</h1>
               <p>
-                LawOps gives Estate Planning firms a configurable workflow engine
+                PallmLaw gives Estate Planning firms a configurable workflow engine
                 built around how legal work actually moves: matters, stages,
                 tasks, deadlines, notes, parties, client status, and
                 practice-area-specific processes. Completed work also feeds the
@@ -70,7 +70,7 @@ export default function WorkflowAutomationPage() {
               </div>
               <Image
                 src="/app-images/automation_flow_canvas.png"
-                alt="LawOps automation flow canvas"
+                alt="PallmLaw automation flow canvas"
                 width={1673}
                 height={608}
                 className="screenshot"
@@ -119,7 +119,7 @@ export default function WorkflowAutomationPage() {
                 </div>
                 <Image
                   src="/app-images/automation_flow_node_editor.png"
-                  alt="LawOps automation node editor"
+                  alt="PallmLaw automation node editor"
                   width={795}
                   height={767}
                   className="screenshot"
@@ -132,7 +132,7 @@ export default function WorkflowAutomationPage() {
                 </div>
                 <Image
                   src="/app-images/automation_flow_runs_log.png"
-                  alt="LawOps automation flow runs log"
+                  alt="PallmLaw automation flow runs log"
                   width={876}
                   height={886}
                   className="screenshot"

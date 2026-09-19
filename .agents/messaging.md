@@ -15,7 +15,7 @@ Owns:
 Must do:
 
 - turn product detail into buyer-readable business language
-- keep LawOps grounded in workflow control, visibility, ownership, and accountability
+- keep PallmLaw grounded in workflow control, visibility, ownership, and accountability
 - reserve AI language for truthful secondary framing only when it helps
 
 Stop conditions:

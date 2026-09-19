@@ -8,7 +8,7 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "Client Communication Automation for Estate Planning Firms",
   description:
-    "LawOps helps Estate Planning firms automate firm-branded, stage-aware client communication with controlled templates, workflow triggers, and communication traceability.",
+    "PallmLaw helps Estate Planning firms automate firm-branded, stage-aware client communication with controlled templates, workflow triggers, and communication traceability.",
   alternates: {
     canonical: "/client-communication-automation",
   },
@@ -37,7 +37,7 @@ export default function ClientCommunicationAutomationPage() {
               </div>
               <Image
                 src="/app-images/email_template_full_editor_surface.png"
-                alt="LawOps email template editor"
+                alt="PallmLaw email template editor"
                 width={859}
                 height={889}
                 className="screenshot"
@@ -48,7 +48,7 @@ export default function ClientCommunicationAutomationPage() {
               <p className="section-tag">Automated Client Communication</p>
               <h1 className="page-title">Client communication that runs with the matter.</h1>
               <p>
-                LawOps turns client communication from a manual follow-up burden
+                PallmLaw turns client communication from a manual follow-up burden
                 into a structured, firm-controlled system. Estate Planning firms
                 can standardize what clients receive, when they receive it, and
                 why, while keeping the tone personal and firm-branded.
@@ -85,7 +85,7 @@ export default function ClientCommunicationAutomationPage() {
                 </div>
                 <Image
                   src="/app-images/email_client_facing_email_preview.png"
-                  alt="Client-facing LawOps email preview"
+                  alt="Client-facing PallmLaw email preview"
                   width={1824}
                   height={896}
                   className="screenshot"
@@ -104,7 +104,7 @@ export default function ClientCommunicationAutomationPage() {
                 <div className="frame mini">
                   <Image
                     src="/app-images/email_template_list.png"
-                    alt="LawOps email template list"
+                    alt="PallmLaw email template list"
                     width={1484}
                     height={719}
                     className="screenshot"
@@ -122,7 +122,7 @@ export default function ClientCommunicationAutomationPage() {
               <h2>Every client should know what happens next.</h2>
               <p>
                 Staff should not need spreadsheets, memory, and one-off emails
-                to keep clients informed. LawOps helps Estate Planning firms
+                to keep clients informed. PallmLaw helps Estate Planning firms
                 create a consistent client experience while communication
                 history remains part of the same operational record.
               </p>

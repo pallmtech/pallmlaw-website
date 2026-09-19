@@ -11,13 +11,13 @@ export default function SiteFooter() {
         <div className="footer-layout footer-layout-top">
           <div className="footer-brand">
             <Image
-              src="/lawops-white-logo.png"
-              alt="LawOps"
-              width={221}
+              src="/pallmlaw-white-logo.png"
+              alt="PallmLaw"
+              width={248}
               height={58}
             />
             <p>
-              LawOps is the operating and intelligence system for Estate
+              PallmLaw is the operating and intelligence system for Estate
               Planning firms: visible matters, enforced workflows, automated
               client communication, and answers owners can act on.
             </p>
@@ -71,7 +71,7 @@ export default function SiteFooter() {
           </div>
 
           <p className="footer-legal">
-            (c) {year} LawOps by Pallm Tech LLC. All rights reserved.
+            &copy; {year} Pallm Tech LLC. All rights reserved.
           </p>
         </div>
       </div>

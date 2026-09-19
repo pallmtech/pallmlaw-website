@@ -7,7 +7,7 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "Estate Planning Workflow Automation and Intelligence",
   description:
-    "LawOps gives Estate Planning firms workflow automation and intelligence across retained matters, critical dates, tasks, client communication, and performance.",
+    "PallmLaw gives Estate Planning firms workflow automation and intelligence across retained matters, critical dates, tasks, client communication, and performance.",
   alternates: {
     canonical: "/legal-workflow-software",
   },
@@ -35,7 +35,7 @@ export default function LegalWorkflowSoftwarePage() {
                 Track, automate, and optimize Estate Planning workflow.
               </h1>
               <p>
-                Most legal software stores information. LawOps gives Estate
+                Most legal software stores information. PallmLaw gives Estate
                 Planning firms an operating and intelligence system for moving work: matter
                 visibility, workflow rules built around legal execution,
                 automated client communication, firm intelligence, and connected
@@ -56,7 +56,7 @@ export default function LegalWorkflowSoftwarePage() {
               <p>
                 Retained, drafting, signing, and binder work create repeatable
                 stages, handoffs, deadlines, reminders, and communication
-                moments. LawOps turns those patterns into repeatable workflow
+                moments. PallmLaw turns those patterns into repeatable workflow
                 automation the firm can actually run.
               </p>
               <div className="inline-cta-row">

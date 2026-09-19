@@ -2,7 +2,7 @@
 
 Purpose:
 
-- own LawOps brand posture, tone, and visual-story coherence
+- own PallmLaw brand posture, tone, and visual-story coherence
 - ensure the brand feels premium, operational, and disciplined rather than generic SaaS
 
 Owns:

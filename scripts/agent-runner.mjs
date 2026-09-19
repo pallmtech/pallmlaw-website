@@ -562,7 +562,7 @@ function buildDraftStructure(task) {
     return [
       "Audience-specific headline",
       "Pain and cost of current-state operations",
-      "How LawOps changes the workflow",
+      "How PallmLaw changes the workflow",
       "Credibility block",
       "Single CTA",
     ];
@@ -687,7 +687,7 @@ function buildProductInboxTask(relativePath, content, owner) {
 
 function buildProductInboxBrief(owner, content) {
   const base =
-    "Review this product handoff, extract only safe public-facing implications, and produce role-specific draft guidance under the LawOps marketing rules.";
+    "Review this product handoff, extract only safe public-facing implications, and produce role-specific draft guidance under the PallmLaw marketing rules.";
 
   const ownerSpecific = {
     messaging: "Focus on positioning and claim tightening.",

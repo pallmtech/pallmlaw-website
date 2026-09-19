@@ -5,9 +5,9 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Estate Planning Operating and Intelligence System",
+  title: "Estate Planning Software for Workflow and Visibility",
   description:
-    "LawOps is the operating and intelligence system for Estate Planning firms, combining workflow control, client communication, and measurable firm performance.",
+    "PallmLaw is the operating and intelligence system for Estate Planning firms, combining workflow control, client communication, and measurable firm performance.",
   alternates: {
     canonical: "/estate-planning-software",
   },
@@ -36,7 +36,7 @@ export default function EstatePlanningSoftwarePage() {
               </h1>
               <p className="hero-tagline">Track. Automate. Optimize.</p>
               <p>
-                LawOps helps estate planning firms replace manual follow-up,
+                PallmLaw helps estate planning firms replace manual follow-up,
                 scattered spreadsheets, and invisible bottlenecks with a
                 structured operating and intelligence system for matters,
                 workflows, client communication, and firm performance. It works
@@ -57,7 +57,7 @@ export default function EstatePlanningSoftwarePage() {
               <h2>Built for firms that need capacity without adding chaos.</h2>
               <p>
                 If your firm moves matters through intake, retained, drafting,
-                signing, and binder with multiple staff handoffs, LawOps helps
+                signing, and binder with multiple staff handoffs, PallmLaw helps
                 turn that process into a repeatable system. Tasks, deadlines,
                 reminders, notes, and client communications can be triggered
                 from where a matter is and what needs to happen next.

@@ -1,9 +1,9 @@
-export const siteUrl = "https://lawops.app";
+export const siteUrl = "https://pallmlaw.com";
 
-export const siteName = "LawOps";
+export const siteName = "PallmLaw";
 
 export const defaultTitle =
-  "LawOps | The Operating and Intelligence System for Estate Planning Firms";
+  "Estate Planning Workflow Software & Firm Intelligence | PallmLaw";
 
 export const defaultDescription =
-  "LawOps is the operating and intelligence system for Estate Planning firms, combining matter visibility, workflow automation, client communication, and firm intelligence.";
+  "PallmLaw helps Estate Planning firms track matters, automate workflows and client communication, identify bottlenecks, and improve operational visibility.";

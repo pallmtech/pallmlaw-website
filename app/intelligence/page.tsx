@@ -6,7 +6,7 @@ import SiteHeader from "@/components/site/SiteHeader";
 export const metadata: Metadata = {
   title: "Firm Intelligence for Estate Planning Firms",
   description:
-    "LawOps derives retention, cycle time, stalled retained matters, workload, and team performance from two core objects: Matters and Tasks.",
+    "PallmLaw derives retention, cycle time, stalled retained matters, workload, and team performance from two core objects: Matters and Tasks.",
   alternates: {
     canonical: "/intelligence",
   },
@@ -30,8 +30,8 @@ export default function IntelligencePage() {
               <p className="section-tag">Intelligence</p>
               <h1 className="page-title">Two simple objects. Real firm intelligence.</h1>
               <p>
-                LawOps runs on Matters and Tasks. A workflow engine generates
-                the work, the team completes it, and LawOps derives retention,
+                PallmLaw runs on Matters and Tasks. A workflow engine generates
+                the work, the team completes it, and PallmLaw derives retention,
                 cycle time, stalled-matter, workload, and performance answers
                 automatically instead of treating every report as a separate
                 configuration project.

@@ -43,11 +43,11 @@ export default function SiteHeader({ current }: SiteHeaderProps) {
   return (
     <header className="topbar">
       <div className="container topbar-inner">
-        <Link href="/" className="brand-mark" aria-label="LawOps home">
+        <Link href="/" className="brand-mark" aria-label="PallmLaw home">
           <Image
-            src="/lawops-fc-logo.png"
-            alt="LawOps"
-            width={212}
+            src="/pallmlaw-fc-logo.png"
+            alt=""
+            width={235}
             height={55}
             priority
           />

@@ -7,7 +7,7 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "Florida Estate Planning Operating and Intelligence System",
   description:
-    "LawOps helps Florida Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
+    "PallmLaw helps Florida Estate Planning firms track matters, automate workflows, automate client communication, surface firm intelligence, and connect approved AI agents.",
   alternates: {
     canonical: "/estate-planning-software-florida",
   },
@@ -36,11 +36,11 @@ export default function EstatePlanningSoftwareFloridaPage() {
               </h1>
               <p className="hero-tagline">Track. Automate. Optimize.</p>
               <p>
-                LawOps helps Florida estate planning firms handle more matters
+                PallmLaw helps Florida estate planning firms handle more matters
                 with the team they already have. It gives busy firms one place to
                 track every matter, automate repeatable legal workflow, keep
                 clients informed with firm-branded communication, and see the
-                numbers behind firm performance. LawOps works alongside the
+                numbers behind firm performance. PallmLaw works alongside the
                 firm's existing practice management, drafting, and intake
                 tools rather than replacing them.
               </p>
@@ -58,7 +58,7 @@ export default function EstatePlanningSoftwareFloridaPage() {
               <h2>For Florida firms serving serious Estate Planning demand.</h2>
               <p>
                 Florida Estate Planning work is often high-volume, deadline-aware,
-                and client-service sensitive. LawOps gives Florida firms
+                and client-service sensitive. PallmLaw gives Florida firms
                 controlled matter visibility, stage-aware client updates,
                 deadline-aware workflow automation, and the intelligence to grow
                 without losing operational control.

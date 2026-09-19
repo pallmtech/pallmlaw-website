@@ -8,7 +8,7 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "AI Agent Connected Intelligence for Estate Planning Firms",
   description:
-    "Ask Estate Planning operational questions in plain English through LawOps, with approved AI access that stays read-only, scoped, consent-based, and audited.",
+    "Ask Estate Planning operational questions in plain English through PallmLaw, with approved AI access that stays read-only, scoped, consent-based, and audited.",
   alternates: {
     canonical: "/ai-agent-connected",
   },
@@ -77,7 +77,7 @@ export default function AiAgentConnectedPage() {
               </div>
               <Image
                 src="/app-images/ai_agent_connected_mcp_hero.png"
-                alt="LawOps AI Agent Connected MCP operational intelligence graphic"
+                alt="PallmLaw AI Agent Connected MCP operational intelligence graphic"
                 width={1376}
                 height={768}
                 className="screenshot"
@@ -91,7 +91,7 @@ export default function AiAgentConnectedPage() {
                 Approved AI assistants can answer practical questions about
                 retained matters, workload, deadlines, bottlenecks,
                 communication history, and firm performance in plain English.
-                LawOps provides the trust layer: read-only, scoped,
+                PallmLaw provides the trust layer: read-only, scoped,
                 consent-based tools with audited activity and no direct
                 database access.
               </p>
@@ -114,7 +114,7 @@ export default function AiAgentConnectedPage() {
               <p className="section-tag">Operational Intelligence</p>
               <h2>Operational answers, not generic AI chat.</h2>
               <p>
-                Approved agents use structured LawOps tools to retrieve current
+                Approved agents use structured PallmLaw tools to retrieve current
                 operational context and answer what needs attention. They
                 cannot change records, send emails, execute workflows, or
                 perform autonomous legal work.
@@ -133,7 +133,7 @@ export default function AiAgentConnectedPage() {
                 </div>
                 <Image
                   src="/app-images/MCP_agent_activity.png"
-                  alt="LawOps MCP agent activity"
+                  alt="PallmLaw MCP agent activity"
                   width={1443}
                   height={324}
                   className="screenshot"
@@ -146,7 +146,7 @@ export default function AiAgentConnectedPage() {
                 </div>
                 <Image
                   src="/app-images/MCP_advanced_options_admin.png"
-                  alt="LawOps MCP advanced options"
+                  alt="PallmLaw MCP advanced options"
                   width={1419}
                   height={908}
                   className="screenshot"
@@ -164,7 +164,7 @@ export default function AiAgentConnectedPage() {
               <p>
                 The strongest AI story is operational: workload, deadlines,
                 bottlenecks, status, communication context, and performance
-                visibility. LawOps keeps that access controlled and auditable.
+                visibility. PallmLaw keeps that access controlled and auditable.
               </p>
             </div>
             <div className="proof-grid">
@@ -182,7 +182,7 @@ export default function AiAgentConnectedPage() {
                 </div>
                 <Image
                   src="/app-images/mcp_read_only_governance_diagram.png"
-                  alt="Read-only MCP governance diagram for LawOps"
+                  alt="Read-only MCP governance diagram for PallmLaw"
                   width={1376}
                   height={768}
                   className="screenshot"

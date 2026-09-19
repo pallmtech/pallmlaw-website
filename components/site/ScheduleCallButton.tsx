@@ -80,7 +80,7 @@ export default function ScheduleCallButton({
               className="schedule-modal-backdrop"
               role="dialog"
               aria-modal="true"
-              aria-label="Schedule a LawOps intro meeting"
+              aria-label="Schedule a PallmLaw intro meeting"
               onMouseDown={(event) => {
                 if (event.target === event.currentTarget) {
                   setOpen(false);
@@ -94,7 +94,7 @@ export default function ScheduleCallButton({
                 <div className="schedule-modal-header">
                   <div>
                     <p className="schedule-modal-eyebrow">Book A Conversation</p>
-                    <h2>Schedule a 15-minute intro to LawOps</h2>
+                    <h2>Schedule a 15-minute intro to PallmLaw</h2>
                   </div>
                   <button
                     type="button"
@@ -110,7 +110,7 @@ export default function ScheduleCallButton({
                   <iframe
                     ref={iframeRef}
                     src={embedUrl}
-                    title="Schedule a LawOps intro meeting"
+                    title="Schedule a PallmLaw intro meeting"
                     loading="lazy"
                     referrerPolicy="strict-origin-when-cross-origin"
                     onLoad={handleFrameLoad}

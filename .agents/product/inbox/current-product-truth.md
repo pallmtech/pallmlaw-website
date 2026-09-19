@@ -3,6 +3,8 @@
 Last consolidated: 2026-06-05
 Source repo: `LawOps`
 
+Brand note: the public product name changed from LawOps to PallmLaw in September 2026. Product capabilities and claim boundaries in this handoff remain applicable under the PallmLaw name. The source repository retains its historical `LawOps` folder name.
+
 This file is the consolidated product handoff state for website and marketing copy. It replaces scattered product-inbox handoff fragments for day-to-day positioning.
 
 ## Launch Posture

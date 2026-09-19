@@ -6,9 +6,9 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Estate Planning Operating and Intelligence System",
+  title: "Estate Planning Workflow Management",
   description:
-    "LawOps is the operating and intelligence system for Estate Planning delivery, with visible retained matters, enforced workflows, and measurable firm performance.",
+    "PallmLaw is the operating and intelligence system for Estate Planning delivery, with visible retained matters, enforced workflows, and measurable firm performance.",
   alternates: {
     canonical: "/estate-planning",
   },
@@ -57,7 +57,7 @@ export default function EstatePlanningPage() {
               <p className="section-tag">Estate Planning</p>
               <h1 className="page-title">The operating and intelligence system for Estate Planning delivery.</h1>
               <p>
-                LawOps helps Estate Planning firms track every retained matter,
+                PallmLaw helps Estate Planning firms track every retained matter,
                 automate repeatable workflow, keep clients informed from the
                 matter lifecycle, and give leadership the operational truth
                 needed to scale without losing control.
@@ -106,7 +106,7 @@ export default function EstatePlanningPage() {
               <h2>Estate Planning has enough structure to become measurable.</h2>
               <p>
                 The biggest drag is usually not one dramatic failure. It is the
-                slow leakage across transitions. LawOps is built to show where
+                slow leakage across transitions. PallmLaw is built to show where
                 matters slow down, where handoffs fail, where notes are missing,
                 and where firm-branded client communication should follow a
                 stage, deadline, task, or milestone.

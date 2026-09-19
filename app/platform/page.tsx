@@ -4,9 +4,9 @@ import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Estate Planning Operating and Intelligence Platform",
+  title: "Legal Operations Platform for Estate Planning Firms",
   description:
-    "See the LawOps operating and intelligence system for Estate Planning firms, built on configurable workflows and intelligence derived from Matters and Tasks.",
+    "See the PallmLaw operating and intelligence system for Estate Planning firms, built on configurable workflows and intelligence derived from Matters and Tasks.",
   alternates: {
     canonical: "/platform",
   },
@@ -63,7 +63,7 @@ export default function PlatformPage() {
               <p className="section-tag">Platform</p>
               <h1 className="page-title">One operating and intelligence system for Estate Planning delivery.</h1>
               <p>
-                LawOps combines execution and intelligence in the same model:
+                PallmLaw combines execution and intelligence in the same model:
                 Matters move through configured stages, critical dates, and
                 task templates, while the work itself produces the answers
                 leadership needs. It works alongside the firm's existing

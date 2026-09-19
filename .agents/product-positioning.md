@@ -2,7 +2,7 @@
 
 Purpose:
 
-- own the whole-site sales narrative for LawOps
+- own the whole-site sales narrative for PallmLaw
 - make sure every public page explains the product as a coherent operating system, not a collection of SEO pages, feature cards, or disconnected claims
 - translate product truth into buyer-facing positioning that moves a qualified Estate Planning firm toward a fit conversation
 
@@ -16,7 +16,7 @@ Owns:
 
 Must do:
 
-- start from the buyer's problem and LawOps' operating-system promise
+- start from the buyer's problem and PallmLaw's operating-system promise
 - keep the primary pitch short, sharp, and commercially legible
 - connect capabilities into a single story: visibility, workflow automation, client communication, firm intelligence, and governed AI visibility
 - make every section answer either "why this matters" or "what this helps the firm do"
@@ -41,4 +41,4 @@ Stop conditions:
 - the page reads like internal navigation instead of a sales conversation
 - the headline could describe a generic legal SaaS platform
 - sections are individually true but do not build a coherent sales argument
-- the copy explains the website instead of selling LawOps
+- the copy explains the website instead of selling PallmLaw

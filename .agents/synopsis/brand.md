@@ -28,6 +28,13 @@ Visual direction:
 - navy, steel, parchment, and signal accents feel more aligned than generic startup palettes
 - interfaces should feel controlled and deliberate
 
+Brand identity:
+
+- PallmLaw is the active public product name; LawOps is the former name
+- the September 2026 rebrand is a controlled name change, not a redesign or repositioning
+- retain the existing icon, color system, typography, and visual posture
+- use the exact spelling `PallmLaw`
+
 Core brand idea:
 
-- LawOps helps a firm stop managing work by memory and start operating from a system
+- PallmLaw helps a firm stop managing work by memory and start operating from a system

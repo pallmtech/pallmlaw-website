@@ -7,16 +7,16 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 import { siteName, siteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "The Operating and Intelligence System for Estate Planning Firms",
+  title: "Estate Planning Workflow Software & Firm Intelligence | PallmLaw",
   description:
-    "LawOps is the operating and intelligence system for Estate Planning firms, turning retained matters into a visible, enforced, measurable pipeline.",
+    "PallmLaw helps Estate Planning firms track matters, automate workflows and client communication, identify bottlenecks, and improve operational visibility.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "The Operating and Intelligence System for Estate Planning Firms",
+    title: "Estate Planning Workflow Software & Firm Intelligence | PallmLaw",
     description:
-      "LawOps turns retained Estate Planning matters into a visible, enforced, measurable pipeline and gives owners answers about stalled work and revenue risk.",
+      "PallmLaw helps Estate Planning firms turn retained matters into a visible, enforced, measurable pipeline and identify stalled work and revenue risk.",
     url: siteUrl,
   },
 };
@@ -30,7 +30,7 @@ const pillars = [
   {
     title: "Firm Intelligence",
     body:
-      "See retention, cycle time, stale matters, workload, and team reliability derived from the work already happening in LawOps.",
+      "See retention, cycle time, stale matters, workload, and team reliability derived from the work already happening in PallmLaw.",
   },
   {
     title: "Automated Execution",
@@ -53,14 +53,14 @@ const salesProofs = [
     eyebrow: "Track",
     title: "Every matter has a visible path forward.",
     body:
-      "LawOps gives the team one operating view of matter context, notes, deadlines, tasks, stages, and workload so owners do not have to manage by hallway updates.",
+      "PallmLaw gives the team one operating view of matter context, notes, deadlines, tasks, stages, and workload so owners do not have to manage by hallway updates.",
     bullets: [
       "Matter, task, note, stage, and deadline visibility",
       "Stale work and bottleneck detection",
       "Owner-level intelligence from live operational data",
     ],
     image: "/app-images/matter_record_surface.png",
-    alt: "LawOps matter record surface",
+    alt: "Estate Planning matter record in PallmLaw",
     width: 1025,
     height: 792,
     metaLeft: "Matter Record",
@@ -79,7 +79,7 @@ const salesProofs = [
       "Run history and error visibility for operational control",
     ],
     image: "/app-images/automation_flow_canvas.png",
-    alt: "LawOps automation flow canvas",
+    alt: "Workflow automation flow in PallmLaw",
     width: 1673,
     height: 608,
     metaLeft: "Automation Flow",
@@ -98,7 +98,7 @@ const salesProofs = [
       "Delivery and communication event traceability",
     ],
     image: "/app-images/email_client_facing_email_preview.png",
-    alt: "LawOps client-facing email preview",
+    alt: "Client-facing email preview in PallmLaw",
     width: 1824,
     height: 896,
     metaLeft: "Client Communication",
@@ -147,7 +147,7 @@ const seoPages = [
   },
   {
     href: "/estate-planning-software",
-    title: "See LawOps For Estate Planning",
+    title: "See How PallmLaw Works",
     body: "Control matters, handoffs, client communication, and delivery intelligence in one connected system.",
   },
   {
@@ -188,19 +188,36 @@ export default function Home() {
     "@graph": [
       {
         "@type": "Organization",
+        "@id": "https://www.pallmtech.com/#organization",
         name: "Pallm Tech LLC",
         url: "https://www.pallmtech.com",
+        logo: `${siteUrl}/pallmlaw-fc-logo-large.png`,
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${siteUrl}/#website`,
+        name: siteName,
+        alternateName: "LawOps",
+        url: siteUrl,
+        publisher: {
+          "@id": "https://www.pallmtech.com/#organization",
+        },
       },
       {
         "@type": "SoftwareApplication",
+        "@id": `${siteUrl}/#softwareapplication`,
         name: siteName,
+        alternateName: "LawOps",
         applicationCategory: "BusinessApplication",
         operatingSystem: "Web",
         url: siteUrl,
         creator: {
-          "@type": "Organization",
-          name: "Pallm Tech LLC",
-          url: "https://www.pallmtech.com",
+          "@id": "https://www.pallmtech.com/#organization",
+        },
+        brand: {
+          "@type": "Brand",
+          name: siteName,
+          logo: `${siteUrl}/pallmlaw-fc-logo-large.png`,
         },
         audience: {
           "@type": "Audience",
@@ -208,7 +225,7 @@ export default function Home() {
         },
         areaServed: ["Florida", "United States"],
         description:
-          "LawOps is the operating and intelligence system for Estate Planning firms, combining matter visibility, workflow automation, client communication, and firm intelligence.",
+          "PallmLaw is the operating and intelligence system for Estate Planning firms, combining matter visibility, workflow automation, client communication, and firm intelligence.",
       },
     ],
   };
@@ -231,7 +248,7 @@ export default function Home() {
               </h1>
               <p className="hero-tagline">Track Automate Visualize</p>
               <p className="lede">
-                LawOps turns retained matters into a visible, enforced,
+                PallmLaw turns retained matters into a visible, enforced,
                 measurable pipeline and gives owners real answers about where
                 work is stuck and revenue is at risk, without replacing the
                 tools the firm already uses.
@@ -258,12 +275,12 @@ export default function Home() {
             <div className="hero-product-visual">
               <div className="frame frame-dark">
                 <div className="frame-meta">
-                  <span>LawOps Command Center</span>
+                  <span>PallmLaw Command Center</span>
                   <span>Notes + Matters + Tasks</span>
                 </div>
                 <Image
                   src="/app-images/main_dashboard_with_new_notes_menu_item.png"
-                  alt="LawOps dashboard with notes navigation"
+                  alt="PallmLaw dashboard with notes navigation"
                   width={956}
                   height={453}
                   className="screenshot"
@@ -285,7 +302,7 @@ export default function Home() {
               <p className="section-tag">Category</p>
               <h2>Operational control and firm intelligence from the same work.</h2>
               <p>
-                LawOps replaces manual follow-up, scattered spreadsheets, and
+                PallmLaw replaces manual follow-up, scattered spreadsheets, and
                 invisible bottlenecks with one operating and intelligence
                 system for retained matters, workflows, client communication,
                 and leadership decisions.
@@ -308,7 +325,7 @@ export default function Home() {
               </div>
               <Image
                 src="/app-images/track_automate_optimize_triptych.png"
-                alt="Track Automate Optimize LawOps operating system graphic"
+                alt="Track Automate Optimize PallmLaw operating system graphic"
                 width={1376}
                 height={768}
                 className="screenshot"
@@ -324,7 +341,7 @@ export default function Home() {
               <h2>The product shows how the operating and intelligence system works.</h2>
               <p>
                 Buyers should not have to imagine the workflow. These operating
-                surfaces show how LawOps tracks matters, automates work, and
+                surfaces show how PallmLaw tracks matters, automates work, and
                 keeps client communication connected to the matter lifecycle.
               </p>
             </div>
@@ -377,8 +394,8 @@ export default function Home() {
               <p className="section-tag">Firm Intelligence</p>
               <h2>See the work, the workload, and the bottlenecks before they slow delivery.</h2>
               <p>
-                LawOps runs on two core objects: Matters and Tasks. As the team
-                completes the work, LawOps automatically derives retention
+                PallmLaw runs on two core objects: Matters and Tasks. As the team
+                completes the work, PallmLaw automatically derives retention
                 rates, cycle times, stalled retained matters, workload, and team
                 reliability without building each report as a separate system.
               </p>
@@ -440,7 +457,7 @@ export default function Home() {
               <p className="section-tag">Client Communication</p>
               <h2>Client communication that runs with the matter.</h2>
               <p>
-                LawOps turns client communication from a manual follow-up burden
+                PallmLaw turns client communication from a manual follow-up burden
                 into a firm-controlled system. Send branded, stage-aware messages
                 and reminders while keeping the tone personal and professional.
               </p>
@@ -560,7 +577,7 @@ export default function Home() {
               <h2>Start with the capability your firm needs first.</h2>
               <p>
                 Some firms start with communication. Others need workflow
-                automation, matter visibility, or governed AI access. LawOps is
+                automation, matter visibility, or governed AI access. PallmLaw is
                 built to connect those problems into one operating and
                 intelligence system.
               </p>

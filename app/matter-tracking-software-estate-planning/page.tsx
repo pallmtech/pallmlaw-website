@@ -7,7 +7,7 @@ import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 export const metadata: Metadata = {
   title: "Estate Planning Matter Tracking Software",
   description:
-    "LawOps gives Estate Planning firms matter tracking inside an operating and intelligence system for workflow automation, client communication, and firm performance.",
+    "PallmLaw gives Estate Planning firms matter tracking inside an operating and intelligence system for workflow automation, client communication, and firm performance.",
   alternates: {
     canonical: "/matter-tracking-software-estate-planning",
   },
@@ -31,10 +31,10 @@ export default function MatterTrackingSoftwareEstatePlanningPage() {
             <div className="fit-intro">
               <p className="section-tag">Estate Planning Matter Tracking Software</p>
               <h1 className="page-title">
-                Matter tracking is the foundation. LawOps turns it into workflow control and firm intelligence.
+                Matter tracking is the foundation. PallmLaw turns it into workflow control and firm intelligence.
               </h1>
               <p>
-                LawOps helps Estate Planning firms track every matter, automate
+                PallmLaw helps Estate Planning firms track every matter, automate
                 the work around it, keep clients informed, and give leadership a
                 live view of which retained matters are open, stalled, overdue,
                 overloaded, or ready to move.
@@ -53,7 +53,7 @@ export default function MatterTrackingSoftwareEstatePlanningPage() {
               <h2>Know where every matter stands without walking the office.</h2>
               <p>
                 For firms with physical files, fragmented systems, or too much
-                status-chasing, LawOps creates a connected operating and
+                status-chasing, PallmLaw creates a connected operating and
                 intelligence system: track the matter, automate the workflow,
                 communicate from the matter lifecycle, and optimize the firm
                 from real data.

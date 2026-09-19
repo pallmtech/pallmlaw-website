@@ -1,6 +1,6 @@
-# LawOps Website Agent Execution Framework
+# PallmLaw Website Agent Execution Framework
 
-This repository is the public marketing and positioning surface for LawOps.
+This repository is the public marketing and positioning surface for PallmLaw, formerly LawOps.
 
 All AI agents working in this repo must follow this framework.
 
@@ -10,7 +10,7 @@ All AI agents working in this repo must follow this framework.
 
 This repo exists to:
 
-- position LawOps clearly
+- position PallmLaw clearly
 - convert qualified firms into conversations
 - maintain brand coherence
 - support content, outbound, and campaign execution
@@ -18,7 +18,7 @@ This repo exists to:
 Agents may improve messaging and design.
 Agents may not invent product capabilities, customer proof, or fake performance claims.
 
-The app repo at `C:\Users\Adam\Pallm Tech Local Dev\LawOps` is the product source of truth when capability claims are in question.
+The app repo at `C:\Users\Adam\Pallm Tech Local Dev\LawOps` is the product source of truth when capability claims are in question. The product repository retains its historical folder name during the PallmLaw rebrand.
 
 Default operating assumption:
 
@@ -93,7 +93,7 @@ Purpose:
 Purpose:
 
 - own the whole-site sales narrative
-- make LawOps feel like one coherent operating system, not a set of SEO pages or isolated features
+- make PallmLaw feel like one coherent operating system, not a set of SEO pages or isolated features
 - remove public copy that exposes internal marketing mechanics instead of buyer value
 
 ## 5. Brand Strategy
@@ -151,7 +151,7 @@ Mandatory escalation:
 
 # Product Truth Rules
 
-The website must stay aligned to shipped or credibly near-term LawOps capabilities.
+The website must stay aligned to shipped or credibly near-term PallmLaw capabilities.
 
 Default workflow before strategy or copy work:
 
@@ -173,7 +173,7 @@ Current strong claims supported by the app repo include:
 
 Rules:
 
-- do not present LawOps as generic AI software
+- do not present PallmLaw as generic AI software
 - do not lead with AI if workflow control is the stronger truth
 - do not claim broad multi-practice maturity when Estate Planning is the strongest current wedge
 - do not use invented testimonials, logos, customer counts, or ROI figures
@@ -182,7 +182,7 @@ Rules:
 
 # Messaging Rules
 
-LawOps should generally be framed as:
+PallmLaw should generally be framed as:
 
 - the operating system for legal workflow
 - workflow infrastructure plus firm intelligence
@@ -237,7 +237,7 @@ Every content asset should do at least one of these:
 
 - expose a workflow problem
 - teach a better operational model
-- clarify how LawOps is different
+- clarify how PallmLaw is different
 - move a qualified Estate Planning buyer toward a fit conversation
 
 Content should be:
@@ -291,7 +291,7 @@ Do not store secrets in agent memory.
 
 A website or marketing task is complete only when:
 
-- the copy is aligned to actual LawOps capabilities
+- the copy is aligned to actual PallmLaw capabilities
 - the output fits the current ICP or clearly states a different target
 - the brand voice is consistent
 - the CTA is clear
@@ -301,4 +301,4 @@ A website or marketing task is complete only when:
 
 ---
 
-LawOps should sound like a real operating system for law firms, not a generic software pitch.
+PallmLaw should sound like a real operating system for law firms, not a generic software pitch.

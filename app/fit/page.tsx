@@ -5,9 +5,9 @@ import SiteHeader from "@/components/site/SiteHeader";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 export const metadata: Metadata = {
-  title: "Book a LawOps Fit Conversation",
+  title: "Book a Fit Conversation",
   description:
-    "Book a fit conversation to see whether LawOps is a strong match for your Estate Planning firm's workflow, visibility, and growth needs.",
+    "Book a fit conversation to see whether PallmLaw is a strong match for your Estate Planning firm's workflow, visibility, and growth needs.",
   alternates: {
     canonical: "/fit",
   },
@@ -35,9 +35,9 @@ export default function FitPage() {
           <div className="container fit-page-layout">
             <div className="fit-intro">
               <p className="section-tag">Fit Conversation</p>
-              <h1 className="page-title">Let's find out if LawOps is a fit.</h1>
+              <h1 className="page-title">Let's find out if PallmLaw is a fit.</h1>
               <p>
-                LawOps is the operating and intelligence system for Estate
+                PallmLaw is the operating and intelligence system for Estate
                 Planning firms that need clearer matter visibility, repeatable
                 workflows, automated client follow-up, and leadership-level
                 answers before adding more headcount.
@@ -65,7 +65,7 @@ export default function FitPage() {
               <h2>Book the conversation.</h2>
               <p>
                 Pick a time to talk through how matters move today, where
-                follow-up breaks down, and whether LawOps fits the way your firm
+                follow-up breaks down, and whether PallmLaw fits the way your firm
                 wants to track, automate, and optimize the work.
               </p>
               <div className="inline-cta-row">
