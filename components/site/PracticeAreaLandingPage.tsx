@@ -25,6 +25,7 @@ type ProofImage = {
 };
 
 type PracticeAreaLandingPageProps = {
+  variant: "automation" | "management" | "trust";
   current: "probate" | "trust-administration";
   canonicalPath: string;
   schemaName: string;
@@ -49,6 +50,7 @@ type PracticeAreaLandingPageProps = {
 };
 
 export default function PracticeAreaLandingPage({
+  variant,
   current,
   canonicalPath,
   schemaName,
@@ -97,16 +99,16 @@ export default function PracticeAreaLandingPage({
   };
 
   return (
-    <div className="site-shell">
+    <div className={`site-shell practice-page practice-variant-${variant}`}>
       <SiteHeader current={current} />
       <main>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
-        <section className="section estate-hero">
-          <div className="container estate-hero-grid">
-            <div className="estate-hero-copy">
+        <section className="section estate-hero practice-hero">
+          <div className="container estate-hero-grid practice-hero-grid">
+            <div className="estate-hero-copy practice-hero-copy">
               <p className="section-tag">{eyebrow}</p>
               <h1 className="page-title">{headline}</h1>
               <p>{introduction}</p>
@@ -117,7 +119,7 @@ export default function PracticeAreaLandingPage({
                 </Link>
               </div>
             </div>
-            <div className="frame frame-dark">
+            <div className="frame frame-dark practice-collateral-frame">
               <div className="frame-meta">
                 <span>{heroImage.label}</span>
                 <span>{heroImage.detail}</span>

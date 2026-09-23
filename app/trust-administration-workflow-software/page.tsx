@@ -19,6 +19,7 @@ export const metadata: Metadata = {
 export default function TrustAdministrationWorkflowSoftwarePage() {
   return (
     <PracticeAreaLandingPage
+      variant="trust"
       current="trust-administration"
       canonicalPath="/trust-administration-workflow-software"
       schemaName="PallmLaw Trust Administration Workflow Software"

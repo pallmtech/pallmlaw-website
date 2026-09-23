@@ -19,6 +19,7 @@ export const metadata: Metadata = {
 export default function ProbateCaseManagementSoftwarePage() {
   return (
     <PracticeAreaLandingPage
+      variant="management"
       current="probate"
       canonicalPath="/probate-case-management-software"
       schemaName="PallmLaw Probate Case Management"

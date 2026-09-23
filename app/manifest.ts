@@ -15,11 +15,13 @@ export default function manifest(): MetadataRoute.Manifest {
         src: "/fc-icon.png",
         sizes: "180x180",
         type: "image/png",
+        purpose: "any",
       },
       {
         src: "/fc-icon-large.png",
         sizes: "720x720",
         type: "image/png",
+        purpose: "any",
       },
     ],
   };

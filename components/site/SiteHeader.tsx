@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 import ScheduleCallButton from "@/components/site/ScheduleCallButton";
 
 type SiteHeaderProps = {
@@ -63,8 +66,29 @@ const practiceAreaLinks = [
 ];
 
 export default function SiteHeader({ current }: SiteHeaderProps) {
+  const [openMenu, setOpenMenu] = useState<"product" | "practice" | null>(null);
+  const headerRef = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    const closeOnOutsideClick = (event: MouseEvent) => {
+      if (headerRef.current && !headerRef.current.contains(event.target as Node)) {
+        setOpenMenu(null);
+      }
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpenMenu(null);
+    };
+
+    document.addEventListener("mousedown", closeOnOutsideClick);
+    window.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("mousedown", closeOnOutsideClick);
+      window.removeEventListener("keydown", closeOnEscape);
+    };
+  }, []);
+
   return (
-    <header className="topbar">
+    <header className="topbar" ref={headerRef}>
       <div className="container topbar-inner">
         <Link href="/" className="brand-mark" aria-label="PallmLaw home">
           <Image
@@ -76,41 +100,49 @@ export default function SiteHeader({ current }: SiteHeaderProps) {
           />
         </Link>
         <nav className="topnav" aria-label="Primary">
-          <details className="nav-dropdown">
-            <summary className={current === "platform" || current === "intelligence" ? "nav-active" : undefined}>
+          <div className={`nav-dropdown ${openMenu === "product" ? "is-open" : ""}`}>
+            <button
+              type="button"
+              className={`nav-dropdown-trigger ${current === "platform" || current === "intelligence" ? "nav-active" : ""}`}
+              aria-expanded={openMenu === "product"}
+              onClick={() => setOpenMenu((value) => value === "product" ? null : "product")}
+            >
               Product
-            </summary>
-            <div className="nav-dropdown-panel">
+            </button>
+            <div className="nav-dropdown-panel" hidden={openMenu !== "product"}>
               {productLinks.map((link) => (
-                <Link className="nav-dropdown-link" key={link.href} href={link.href}>
+                <Link className="nav-dropdown-link" key={link.href} href={link.href} onClick={() => setOpenMenu(null)}>
                   <span>{link.label}</span>
                   <small>{link.description}</small>
                 </Link>
               ))}
             </div>
-          </details>
+          </div>
 
-          <details className="nav-dropdown">
-            <summary
-              className={
+          <div className={`nav-dropdown ${openMenu === "practice" ? "is-open" : ""}`}>
+            <button
+              type="button"
+              className={`nav-dropdown-trigger ${
                 current === "estate-planning" ||
                 current === "probate" ||
                 current === "trust-administration"
                   ? "nav-active"
-                  : undefined
-              }
+                  : ""
+              }`}
+              aria-expanded={openMenu === "practice"}
+              onClick={() => setOpenMenu((value) => value === "practice" ? null : "practice")}
             >
               Practice Areas
-            </summary>
-            <div className="nav-dropdown-panel">
+            </button>
+            <div className="nav-dropdown-panel" hidden={openMenu !== "practice"}>
               {practiceAreaLinks.map((link) => (
-                <Link className="nav-dropdown-link" key={link.href} href={link.href}>
+                <Link className="nav-dropdown-link" key={link.href} href={link.href} onClick={() => setOpenMenu(null)}>
                   <span>{link.label}</span>
                   <small>{link.description}</small>
                 </Link>
               ))}
             </div>
-          </details>
+          </div>
 
           <Link href="/insights" className={current === "insights" ? "nav-active" : undefined}>
             Insights

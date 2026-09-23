@@ -1,6 +1,40 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  async headers() {
+    return [
+      {
+        source: "/old_lawops_logos/:path*",
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex, noimageindex" },
+        ],
+      },
+      {
+        source: "/app-images/old_lawops_images/:path*",
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex, noimageindex" },
+        ],
+      },
+      {
+        source: "/partner-assets/lawops-logo-white-large.png",
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex, noimageindex" },
+        ],
+      },
+      {
+        source: "/partner-assets/lawops-logo-large.png",
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex, noimageindex" },
+        ],
+      },
+      {
+        source: "/partner-assets/lawops-fc-icon-large.png",
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex, noimageindex" },
+        ],
+      },
+    ];
+  },
   async redirects() {
     return [
       {

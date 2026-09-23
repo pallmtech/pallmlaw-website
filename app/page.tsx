@@ -213,6 +213,19 @@ export default function Home() {
         logo: `${siteUrl}/pallmlaw-fc-logo-large.png`,
       },
       {
+        "@type": "Brand",
+        "@id": `${siteUrl}/#brand`,
+        name: siteName,
+        alternateName: "LawOps",
+        url: siteUrl,
+        logo: {
+          "@type": "ImageObject",
+          url: `${siteUrl}/fc-icon-large.png`,
+          width: 720,
+          height: 720,
+        },
+      },
+      {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         name: siteName,
@@ -234,9 +247,7 @@ export default function Home() {
           "@id": "https://www.pallmtech.com/#organization",
         },
         brand: {
-          "@type": "Brand",
-          name: siteName,
-          logo: `${siteUrl}/pallmlaw-fc-logo-large.png`,
+          "@id": `${siteUrl}/#brand`,
         },
         audience: {
           "@type": "Audience",

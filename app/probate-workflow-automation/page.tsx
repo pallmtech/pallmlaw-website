@@ -19,6 +19,7 @@ export const metadata: Metadata = {
 export default function ProbateWorkflowAutomationPage() {
   return (
     <PracticeAreaLandingPage
+      variant="automation"
       current="probate"
       canonicalPath="/probate-workflow-automation"
       schemaName="PallmLaw Probate Workflow Automation"

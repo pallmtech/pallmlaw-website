@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteUrl } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const lastModified = new Date("2026-09-23T00:00:00.000Z");
   const routes = [
     "",
     "/estate-planning",
@@ -28,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return routes.map((route) => ({
     url: `${siteUrl}${route}`,
+    lastModified,
     changeFrequency: route === "" ? "weekly" : "monthly",
     priority: route === "" ? 1 : 0.8,
   }));
